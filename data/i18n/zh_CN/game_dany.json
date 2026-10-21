@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "DANY 是一款以大胆声明和虚张声势为核心的卡牌游戏：将一至三张牌背面朝上打出，并声称它们的点数之和正是你说出的数字——然后看牌桌决定要不要质疑你。被识破的谎言会损失声望，无谓的质疑同样如此。",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "出牌",
+  "game.dany.phase.inspect": "查验",
+  "game.dany.phase.finished": "游戏结束",
+
+  "game.dany.suit.ember": "余烬",
+  "game.dany.suit.tide": "潮汐",
+  "game.dany.suit.grove": "林地",
+  "game.dany.suit.dusk": "黄昏",
+  "game.dany.suit.frost": "寒霜",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "打出这张牌",
+  "game.dany.deselect": "收回这张牌",
+  "game.dany.claim": "声明点数",
+  "game.dany.pass": "跳过本轮",
+  "game.dany.inspect": "查验声明",
+  "game.dany.hold": "认可声明",
+
+  "game.dany.table_title": "牌桌",
+  "game.dany.history_title": "刚刚发生",
+  "game.dany.hand_title": "你的手牌",
+  "game.dany.you": "你",
+  "game.dany.out": "已淘汰",
+  "game.dany.chip_insight": "洞察 {value}",
+  "game.dany.chip_reputation": "声望 {value}",
+  "game.dany.chip_cards": "{count} 张牌",
+  "game.dany.oracle_line": "第 {round} 轮：声明点数至少为 {oracle}。",
+  "game.dany.claim_banner": "{player} 打出 {cards} 张牌，声称其点数之和为 {value}。",
+  "game.dany.score_line": "{player}：洞察 {insight}，声望 {reputation}",
+
+  "game.dany.status_select": "{player} 必须打出 1 至 3 张牌，并声明至少 {oracle}（第 {round} 轮）。",
+  "game.dany.status_inspect": "{player} 以 {cards} 张牌声明 {value}——{responder} 可以查验声明或予以认可。",
+  "game.dany.finished": "对局结束：{winner}",
+
+  "game.dany.claim_prompt": "声明你打出牌的点数之和",
+  "game.dany.claim_hint": "须先打出 1 至 3 张牌。允许虚张声势——被识破的谎言会损失一点声望，无谓的质疑同样如此。",
+  "game.dany.laid_line": "已打出 {count}/3 张牌",
+  "game.dany.select_first": "至少打出一张牌才能声明点数。",
+  "game.dany.claim_button": "声明 {value}",
+  "game.dany.inspect_prompt": "查验声明——还是予以认可？",
+  "game.dany.inspect_button": "查验声明",
+  "game.dany.hold_button": "认可声明",
+  "game.dany.fold_prompt": "你的手牌已空——跳过并等待牌桌继续。",
+  "game.dany.fold_button": "跳过",
+
+  "game.dany.log_start": "DANY 开局：{count} 名玩家，每人 {per_player} 张牌，另有 {sealed} 张封存。",
+  "game.dany.log_lay": "{player} 打出 {count} 张牌。",
+  "game.dany.log_claim": "{player} 声明打出的 {cards} 张牌点数为 {value}。",
+  "game.dany.log_inspected_true": "{inspector} 查验 {player}：这些牌（{cards}）点数之和确实为 {value}。质疑要付出一点声望。",
+  "game.dany.log_inspected_false": "{inspector} 识破 {player}：这些牌（{cards}）点数之和为 {total}，并非 {value}。",
+  "game.dany.log_unchallenged": "无人质疑 {player}；这 {cards} 张牌未翻开便被收走。",
+  "game.dany.log_fold": "{player} 已无牌可出，选择跳过。",
+  "game.dany.log_eliminated": "{player} 声望耗尽，离开牌桌。",
+  "game.dany.log_new_round": "神谕已超出三张牌的上限——第 {round} 轮以全新计数开始。",
+
+  "game.dany.reason_last_standing": "其他所有座位均已淘汰。",
+  "game.dany.reason_hands_empty": "所有手牌都已打空；由洞察决出牌桌胜负。",
+  "game.dany.reason_turn_limit": "牌桌已达回合上限；由洞察决出牌桌胜负。",
+
+  "game.dany.error.illegal_action": "当前这不是有效的 DANY 操作。"
+}

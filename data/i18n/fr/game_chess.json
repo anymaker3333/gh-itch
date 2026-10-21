@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Échecs",
+  "game.chess.desc": "Le jeu classique des rois : développez vos pièces, contrôlez le centre et matez le roi adverse. Règles complètes, avec le roque, la prise en passant, la promotion et toutes les règles de partie nulle.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "ouverture",
+  "game.chess.phase.middlegame": "milieu de partie",
+  "game.chess.phase.endgame": "finale",
+  "game.chess.phase.finished": "partie terminée",
+
+  "game.chess.option.castling": "Autoriser le roque",
+  "game.chess.option.castling_hint": "Lorsque l'option est désactivée, le roi ne peut jamais avancer de deux cases et la tour ne saute jamais par-dessus lui.",
+  "game.chess.option.en_passant": "Autoriser la prise en passant",
+  "game.chess.option.en_passant_hint": "Un pion qui vient d'avancer de deux cases peut être capturé comme s'il n'avait avancé que d'une case.",
+  "game.chess.option.fifty_move": "Règle des cinquante coups",
+  "game.chess.option.fifty_move_hint": "Cinquante coups sans capture ni déplacement de pion terminent la partie sur un match nul.",
+
+  "game.chess.colour_white": "Blancs",
+  "game.chess.colour_black": "Noirs",
+  "game.chess.turn_line": "{player} joue les {colour}",
+  "game.chess.check_white": "Les Blancs sont en échec.",
+  "game.chess.check_black": "Les Noirs sont en échec.",
+  "game.chess.move_number": "Coup {number}",
+  "game.chess.hint_top": "Suggestion : {move}",
+  "game.chess.promotion": "Choisissez la pièce de promotion :",
+  "game.chess.captured": "Pièces capturées :",
+  "game.chess.selected": "Case sélectionnée : {square} ({piece})",
+  "game.chess.suggest": "Suggérer un coup",
+  "game.chess.notation_hint": "Cliquez sur une pièce pour voir ses coups légaux, puis cliquez sur une case surlignée. Les captures sont marquées en rouge.",
+
+  "game.chess.log_start": "{white} (Blancs) affronte {black} (Noirs).",
+  "game.chess.log_move": "{player} joue {move}.",
+
+  "game.chess.reason_checkmate": "Échec et mat.",
+  "game.chess.reason_stalemate": "Pat : aucun coup légal, le roi n'est pas en échec.",
+  "game.chess.reason_insufficient_material": "Match nul : matériel insuffisant pour forcer le mat.",
+  "game.chess.reason_fifty_move": "Match nul par la règle des cinquante coups.",
+  "game.chess.reason_repetition": "Match nul par répétition triple.",
+
+  "game.chess.error.unknown_action": "Cette action ne fait pas partie du jeu d'échecs.",
+  "game.chess.error.illegal_move": "Ce coup n'est pas légal dans cette position."
+}

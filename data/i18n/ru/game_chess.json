@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Шахматы",
+  "game.chess.desc": "Классическая игра королей: развивайте фигуры, контролируйте центр и ставьте мат королю соперника. Полный набор правил, включая рокировку, взятие на проходе, превращение пешки и все правила ничьей.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "дебют",
+  "game.chess.phase.middlegame": "миттельшпиль",
+  "game.chess.phase.endgame": "эндшпиль",
+  "game.chess.phase.finished": "партия окончена",
+
+  "game.chess.option.castling": "Разрешить рокировку",
+  "game.chess.option.castling_hint": "Если выключено, король никогда не может пойти на два поля, а ладья — перепрыгнуть через него.",
+  "game.chess.option.en_passant": "Разрешить взятие на проходе",
+  "game.chess.option.en_passant_hint": "Пешку, которая только что продвинулась на два поля, можно взять так, как будто она продвинулась только на одно.",
+  "game.chess.option.fifty_move": "Правило пятидесяти ходов",
+  "game.chess.option.fifty_move_hint": "Пятьдесят ходов без взятий и без ходов пешкой завершают партию ничьей.",
+
+  "game.chess.colour_white": "Белые",
+  "game.chess.colour_black": "Чёрные",
+  "game.chess.turn_line": "Ход: {player} ({colour})",
+  "game.chess.check_white": "У белых шах.",
+  "game.chess.check_black": "У чёрных шах.",
+  "game.chess.move_number": "Ход {number}",
+  "game.chess.hint_top": "Подсказка: {move}",
+  "game.chess.promotion": "Выберите фигуру для превращения:",
+  "game.chess.captured": "Взято:",
+  "game.chess.selected": "Выбрано: {square} ({piece})",
+  "game.chess.suggest": "Подсказать ход",
+  "game.chess.notation_hint": "Щёлкните фигуру, чтобы увидеть её допустимые ходы, затем щёлкните подсвеченное поле. Взятия отмечены красным.",
+
+  "game.chess.log_start": "За белых играет {white}, за чёрных — {black}.",
+  "game.chess.log_move": "{player} играет {move}.",
+
+  "game.chess.reason_checkmate": "Мат.",
+  "game.chess.reason_stalemate": "Пат: нет допустимых ходов и нет шаха.",
+  "game.chess.reason_insufficient_material": "Ничья: недостаточно материала, чтобы форсировать мат.",
+  "game.chess.reason_fifty_move": "Ничья по правилу пятидесяти ходов.",
+  "game.chess.reason_repetition": "Ничья из-за троекратного повторения позиции.",
+
+  "game.chess.error.unknown_action": "Это действие не относится к шахматам.",
+  "game.chess.error.illegal_move": "Этот ход недопустим в этой позиции."
+}

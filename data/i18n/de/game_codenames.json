@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Codenames",
+  "game.codenames.desc": "Zwei Teams versuchen, ihre geheimen Agenten auf einem 5×5-Wörterraster zu finden: Der Geheimdienstchef gibt einen Hinweis aus nur einem Wort und eine Zahl, die Ermittler raten — und ein falsches Wort ist der Attentäter.",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "Hinweis",
+  "game.codenames.phase.guess": "Raten",
+  "game.codenames.phase.finished": "Partie beendet",
+
+  "game.codenames.option.starting_team": "Startteam",
+  "game.codenames.option.starting_team_hint": "Das Startteam muss neun Agenten finden, das andere Team acht. Standardmäßig beginnt Rot.",
+  "game.codenames.option.team_red": "Rot",
+  "game.codenames.option.team_blue": "Blau",
+
+  "game.codenames.team_red": "Team Rot",
+  "game.codenames.team_blue": "Team Blau",
+  "game.codenames.card_neutral": "Unbeteiligter",
+  "game.codenames.card_assassin": "Attentäter",
+  "game.codenames.role_spymaster": "Geheimdienstchef",
+  "game.codenames.role_operative": "Ermittler",
+
+  "game.codenames.your_role": "Du spielst als {role} im {team}.",
+  "game.codenames.turn_clue": "{player} muss einen Hinweis für das {team} geben.",
+  "game.codenames.turn_guess": "{player} rät für das {team} — {clue}, {left}.",
+  "game.codenames.cue_line": "„{word}“ für {number}",
+  "game.codenames.guesses_left.one": "{count} Tipp bleibt in diesem Zug",
+  "game.codenames.guesses_left.other": "{count} Tipps bleiben in diesem Zug",
+  "game.codenames.agents_left": "Noch aufzudecken — Rot: {red}, Blau: {blue}",
+  "game.codenames.key_visible": "Deine Schlüsselkarte ist auf dem Spielfeld eingezeichnet: Behalte sie für dich.",
+  "game.codenames.key_hidden": "Nicht aufgedeckte Wörter bleiben leer, bis jemand sie errät.",
+  "game.codenames.cue_prompt": "Ein Hinweiswort und eine Zahl wählen",
+  "game.codenames.board_hint": "Ein noch nicht aufgedecktes Wort anklicken, um es zu erraten, oder den Zug beenden.",
+  "game.codenames.finished": "Partie beendet — {winner}",
+  "game.codenames.stop": "Raten beenden",
+
+  "game.codenames.log_start": "Die Geheimdienstchefs sind {red_spy} (Rot) und {blue_spy} (Blau).",
+  "game.codenames.log_clue": "{player} vom {team} gibt den Hinweis „{word}“ für {number}.",
+  "game.codenames.log_agent": "{player} deckt „{card}“ auf, einen Agenten vom {team}.",
+  "game.codenames.log_bystander": "{player} deckt „{card}“ auf, einen Unbeteiligten.",
+  "game.codenames.log_assassin": "{player} deckt „{card}“ auf — den Attentäter!",
+  "game.codenames.log_stop": "{player} beendet das Raten für das {team}.",
+
+  "game.codenames.reason_all_agents": "Ein Team hat alle seine Agenten gefunden.",
+  "game.codenames.reason_assassin": "Der Attentäter wurde aufgedeckt.",
+  "game.codenames.reason_turn_limit": "Das Hinweislimit wurde erreicht, daher gewinnt das Team mit mehr aufgedeckten Agenten.",
+  "game.codenames.reason_abandoned": "Ein Team hat den Tisch verlassen.",
+
+  "game.codenames.error.illegal_action": "Das ist gerade keine erlaubte Codenames-Aktion."
+}

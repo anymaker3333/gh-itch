@@ -1,0 +1,12 @@
+# Godot
+.godot/
+.import/
+export_presets.cfg.bak
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OpenCode
+.opencode/

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="236" viewBox="0 0 600 236">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10141f"/>
+      <stop offset="1" stop-color="#1c2133"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#d9a94b" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#d9a94b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="236" fill="url(#bg)"/>
+  <rect width="600" height="236" fill="url(#glow)"/>
+  <g transform="translate(300 120)">
+    <g>
+      <rect x="-132" y="8" width="264" height="48" fill="#c9b98e"/>
+      <g fill="#2a2f45">
+        <rect x="-132" y="8" width="33" height="24"/>
+        <rect x="-66" y="8" width="33" height="24"/>
+        <rect x="0" y="8" width="33" height="24"/>
+        <rect x="66" y="8" width="33" height="24"/>
+        <rect x="-99" y="32" width="33" height="24"/>
+        <rect x="-33" y="32" width="33" height="24"/>
+        <rect x="33" y="32" width="33" height="24"/>
+        <rect x="99" y="32" width="33" height="24"/>
+      </g>
+    </g>
+    <g transform="translate(-8 -22)">
+      <path d="M-44 22 L-44 -8 Q-44 -18 -34 -18 L-30 -18 Q-24 -40 -6 -44 Q-14 -28 -8 -18 L22 -18 Q30 -18 30 -8 L30 22 Z" fill="#f0e3c2"/>
+      <rect x="-48" y="22" width="82" height="10" rx="4" fill="#d9a94b"/>
+      <circle cx="-24" cy="-30" r="5" fill="#8a6a24"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="598" height="234" fill="none" stroke="#d9a94b" stroke-opacity="0.25" stroke-width="2"/>
+</svg>

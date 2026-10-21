@@ -1,0 +1,28 @@
+{
+  "format": "gamehub-theme/1",
+  "name": "Casino",
+  "colors": {
+    "bg_deepest": "#06120b",
+    "bg_base": "#0b1a12",
+    "bg_panel": "#13271a",
+    "bg_elevated": "#1a3322",
+    "bg_hover": "#23432c",
+    "bg_active": "#2d5437",
+    "border": "#35533a",
+    "border_strong": "#577544",
+    "text": "#f4e9c8",
+    "text_muted": "#c4b78f",
+    "text_dim": "#8f8566",
+    "text_on_accent": "#241704",
+    "accent": "#e8b84a",
+    "accent_hover": "#ffd36a",
+    "accent_pressed": "#c9972e",
+    "accent_soft": "#4b3a16",
+    "accent_dim": "#2e2613",
+    "positive": "#5fd38a",
+    "warning": "#f5c451",
+    "danger": "#f06a6a",
+    "info": "#79c7b4",
+    "focus": "#ffe08a"
+  }
+}

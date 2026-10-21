@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "国际象棋",
+  "game.chess.desc": "王者的经典游戏：出动子力、控制中心，并将死对方的王。完整规则涵盖王车易位、吃过路兵、兵升变以及全部平局规则。",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "开局",
+  "game.chess.phase.middlegame": "中局",
+  "game.chess.phase.endgame": "残局",
+  "game.chess.phase.finished": "对局结束",
+
+  "game.chess.option.castling": "允许王车易位",
+  "game.chess.option.castling_hint": "关闭后，王永远不能走两格，车也不能越过王。",
+  "game.chess.option.en_passant": "允许吃过路兵",
+  "game.chess.option.en_passant_hint": "刚刚前进两格的兵，可以像它只走了一格那样被吃掉。",
+  "game.chess.option.fifty_move": "五十步规则",
+  "game.chess.option.fifty_move_hint": "连续五十步未吃子、未走兵，对局即以平局结束。",
+
+  "game.chess.colour_white": "白方",
+  "game.chess.colour_black": "黑方",
+  "game.chess.turn_line": "{player} 执{colour}",
+  "game.chess.check_white": "白方被将军。",
+  "game.chess.check_black": "黑方被将军。",
+  "game.chess.move_number": "第 {number} 步",
+  "game.chess.hint_top": "建议：{move}",
+  "game.chess.promotion": "选择升变棋子：",
+  "game.chess.captured": "被吃棋子：",
+  "game.chess.selected": "已选中 {square}（{piece}）",
+  "game.chess.suggest": "建议走法",
+  "game.chess.notation_hint": "点击棋子可查看其合法走法，然后点击高亮方格。吃子走法以红色标记。",
+
+  "game.chess.log_start": "{white}（白方）对阵 {black}（黑方）。",
+  "game.chess.log_move": "{player} 走出 {move}。",
+
+  "game.chess.reason_checkmate": "将死。",
+  "game.chess.reason_stalemate": "逼和：无合法走法且未被将军。",
+  "game.chess.reason_insufficient_material": "平局：子力不足，无法将死对方。",
+  "game.chess.reason_fifty_move": "平局：五十步规则。",
+  "game.chess.reason_repetition": "平局：三次重复局面。",
+
+  "game.chess.error.unknown_action": "该操作不属于国际象棋。",
+  "game.chess.error.illegal_move": "该走法在当前局面下不合法。"
+}

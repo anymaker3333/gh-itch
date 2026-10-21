@@ -1,0 +1,146 @@
+{
+  "registry": "star_realms_sets",
+  "game": "star_realms",
+  "sets": [
+    {
+      "id": "sr_core",
+      "name_key": "sr.set.sr_core.name",
+      "desc_key": "sr.set.sr_core.desc",
+      "kind": "base",
+      "required": true,
+      "default_enabled": true,
+      "content_ready": true,
+      "card_pool": "res://scripts/games/star_realms/star_realms_cards.gd",
+      "card_count": 80,
+      "implemented_card_count": 80,
+      "min_players": 2,
+      "max_players": 4,
+      "accreditation": "Star Realms is a trademark of Wise Wizard Games. This is a fan implementation of the rules; card names and values are used for interoperability only."
+    },
+    {
+      "id": "sr_mercenary_garrison",
+      "name_key": "sr.set.sr_mercenary_garrison.name",
+      "desc_key": "sr.set.sr_mercenary_garrison.desc",
+      "kind": "promo",
+      "required": false,
+      "default_enabled": false,
+      "content_ready": true,
+      "card_pool": "res://scripts/games/star_realms/star_realms_cards.gd",
+      "depends_on": ["sr_core"],
+      "card_count": 1,
+      "implemented_card_count": 1,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_colony_wars",
+      "name_key": "sr.set.sr_colony_wars.name",
+      "desc_key": "sr.set.sr_colony_wars.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 80,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_crisis_bases",
+      "name_key": "sr.set.sr_crisis_bases.name",
+      "desc_key": "sr.set.sr_crisis_bases.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_crisis_fleets",
+      "name_key": "sr.set.sr_crisis_fleets.name",
+      "desc_key": "sr.set.sr_crisis_fleets.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_crisis_events",
+      "name_key": "sr.set.sr_crisis_events.name",
+      "desc_key": "sr.set.sr_crisis_events.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_crisis_heroes",
+      "name_key": "sr.set.sr_crisis_heroes.name",
+      "desc_key": "sr.set.sr_crisis_heroes.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_united_assault",
+      "name_key": "sr.set.sr_united_assault.name",
+      "desc_key": "sr.set.sr_united_assault.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_united_command",
+      "name_key": "sr.set.sr_united_command.name",
+      "desc_key": "sr.set.sr_united_command.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_united_heroes",
+      "name_key": "sr.set.sr_united_heroes.name",
+      "desc_key": "sr.set.sr_united_heroes.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 12,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_frontiers",
+      "name_key": "sr.set.sr_frontiers.name",
+      "desc_key": "sr.set.sr_frontiers.desc",
+      "kind": "expansion",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 80,
+      "min_players": 2,
+      "max_players": 4
+    },
+    {
+      "id": "sr_promos",
+      "name_key": "sr.set.sr_promos.name",
+      "desc_key": "sr.set.sr_promos.desc",
+      "kind": "promo",
+      "content_ready": false,
+      "depends_on": ["sr_core"],
+      "card_count": 0,
+      "min_players": 2,
+      "max_players": 4
+    }
+  ]
+}

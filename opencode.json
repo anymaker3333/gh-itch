@@ -1,0 +1,17 @@
+{
+  "mcp": {
+    "servers": {
+      "godot": {
+        "type": "local",
+        "command": [
+          "node",
+          "/home/xilivir/Директорії/Tools/godot-mcp/build/index.js"
+        ],
+        "environment": {
+          "GODOT_PATH": "/usr/bin/godot",
+          "MCP_TOOLSETS": "process,project,scene,node,animation,tilemap,resource,script,signal_group,uid,settings,interactive,screenshot,analysis,testing"
+        }
+      }
+    }
+  }
+}

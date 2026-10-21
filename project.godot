@@ -1,0 +1,58 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Game Hub"
+config/description="Desktop board-game platform with local and Steam online play."
+config/version="0.1.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Log="*res://scripts/autoload/log.gd"
+Prefs="*res://scripts/autoload/prefs.gd"
+ThemeSvc="*res://scripts/autoload/theme_service.gd"
+Loc="*res://scripts/autoload/loc.gd"
+Catalog="*res://scripts/autoload/catalog.gd"
+Audio="*res://scripts/autoload/audio_service.gd"
+Notify="*res://scripts/autoload/notify.gd"
+SteamSvc="*res://scripts/autoload/steam_service.gd"
+Net="*res://scripts/autoload/net_service.gd"
+Session="*res://scripts/autoload/game_session_service.gd"
+Nav="*res://scripts/autoload/nav.gd"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godotsteam/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false
+
+[gui]
+
+theme/default_font_subpixel_positioning=2
+theme/default_font_multichannel_signed_distance_field=true
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+anti_aliasing/quality/msaa_2d=1
+environment/defaults/default_clear_color=Color(0.043, 0.055, 0.075, 1)

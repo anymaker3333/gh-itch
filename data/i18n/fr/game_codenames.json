@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Codenames",
+  "game.codenames.desc": "Deux équipes cherchent à révéler leurs informateurs secrets sur une grille de mots 5×5 : le maître-espion donne un indice d'un seul mot et un nombre, les agents devinent — et un mot erroné est l'assassin.",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "indice",
+  "game.codenames.phase.guess": "deviner",
+  "game.codenames.phase.finished": "partie terminée",
+
+  "game.codenames.option.starting_team": "Équipe qui commence",
+  "game.codenames.option.starting_team_hint": "L'équipe qui commence a neuf informateurs à trouver, l'autre équipe huit. Par défaut, l'équipe rouge commence.",
+  "game.codenames.option.team_red": "Rouges",
+  "game.codenames.option.team_blue": "Bleus",
+
+  "game.codenames.team_red": "équipe rouge",
+  "game.codenames.team_blue": "équipe bleue",
+  "game.codenames.card_neutral": "témoin",
+  "game.codenames.card_assassin": "assassin",
+  "game.codenames.role_spymaster": "maître-espion",
+  "game.codenames.role_operative": "agent",
+
+  "game.codenames.your_role": "Vous êtes {role} de l'{team}.",
+  "game.codenames.turn_clue": "{player} doit donner un indice pour l'{team}.",
+  "game.codenames.turn_guess": "{player} devine pour l'{team} — indice {clue}, {left}.",
+  "game.codenames.cue_line": "« {word} » pour {number}",
+  "game.codenames.guesses_left.one": "{count} essai restant pour ce tour",
+  "game.codenames.guesses_left.other": "{count} essais restants pour ce tour",
+  "game.codenames.agents_left": "Restant à révéler — rouge : {red}, bleu : {blue}",
+  "game.codenames.key_visible": "Votre carte-clé est indiquée sur le plateau : gardez-la pour vous.",
+  "game.codenames.key_hidden": "Les mots non révélés restent vides jusqu'à ce que quelqu'un les devine.",
+  "game.codenames.cue_prompt": "Choisissez un mot-indice et un nombre",
+  "game.codenames.board_hint": "Cliquez sur un mot non révélé pour le deviner, ou arrêtez pour terminer le tour.",
+  "game.codenames.finished": "Partie terminée — {winner}",
+  "game.codenames.stop": "Arrêter de deviner",
+
+  "game.codenames.log_start": "Les maîtres-espions sont {red_spy} (rouge) et {blue_spy} (bleu).",
+  "game.codenames.log_clue": "{player} de l'{team} donne l'indice « {word} » pour {number}.",
+  "game.codenames.log_agent": "{player} révèle « {card} », un informateur de l'{team}.",
+  "game.codenames.log_bystander": "{player} révèle « {card} », un témoin.",
+  "game.codenames.log_assassin": "{player} révèle « {card} » — l'assassin !",
+  "game.codenames.log_stop": "{player} arrête de deviner pour l'{team}.",
+
+  "game.codenames.reason_all_agents": "Une équipe a trouvé tous ses informateurs.",
+  "game.codenames.reason_assassin": "L'assassin a été révélé.",
+  "game.codenames.reason_turn_limit": "La limite d'indices est atteinte : l'équipe qui a révélé le plus d'informateurs l'emporte.",
+  "game.codenames.reason_abandoned": "Une équipe a quitté la table.",
+
+  "game.codenames.error.illegal_action": "Cette action n'est pas possible à Codenames pour le moment."
+}

@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Szachy",
+  "game.chess.desc": "Klasyczna gra królów: rozwijaj figury, kontroluj centrum i daj mata królowi przeciwnika. Pełne zasady, w tym roszada, bicie w przelocie, promocja pionka i wszystkie przepisy o remisach.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "debiut",
+  "game.chess.phase.middlegame": "gra środkowa",
+  "game.chess.phase.endgame": "końcówka",
+  "game.chess.phase.finished": "koniec gry",
+
+  "game.chess.option.castling": "Zezwól na roszadę",
+  "game.chess.option.castling_hint": "Po wyłączeniu król nigdy nie przesuwa się o dwa pola, a wieża nie przeskakuje nad nim.",
+  "game.chess.option.en_passant": "Zezwól na bicie w przelocie",
+  "game.chess.option.en_passant_hint": "Pionka, który właśnie przesunął się o dwa pola, można zbić tak, jakby ruszył się tylko o jedno.",
+  "game.chess.option.fifty_move": "Reguła pięćdziesięciu posunięć",
+  "game.chess.option.fifty_move_hint": "Pięćdziesiąt posunięć bez bicia i bez ruchu pionka kończy grę remisem.",
+
+  "game.chess.colour_white": "Białe",
+  "game.chess.colour_black": "Czarne",
+  "game.chess.turn_line": "{player} gra {colour}",
+  "game.chess.check_white": "Białe są w szachu.",
+  "game.chess.check_black": "Czarne są w szachu.",
+  "game.chess.move_number": "Posunięcie {number}",
+  "game.chess.hint_top": "Podpowiedź: {move}",
+  "game.chess.promotion": "Wybierz figurę do promocji:",
+  "game.chess.captured": "Zbite:",
+  "game.chess.selected": "Wybrano {square} ({piece})",
+  "game.chess.suggest": "Zaproponuj ruch",
+  "game.chess.notation_hint": "Kliknij figurę, aby zobaczyć jej dozwolone posunięcia, a następnie kliknij podświetlone pole. Bicia zaznaczono na czerwono.",
+
+  "game.chess.log_start": "{white} gra białymi, {black} czarnymi.",
+  "game.chess.log_move": "{player} gra {move}.",
+
+  "game.chess.reason_checkmate": "Mat.",
+  "game.chess.reason_stalemate": "Pat: brak dozwolonego posunięcia i brak szacha.",
+  "game.chess.reason_insufficient_material": "Remis: niewystarczający materiał, aby wymusić mata.",
+  "game.chess.reason_fifty_move": "Remis przez regułę pięćdziesięciu posunięć.",
+  "game.chess.reason_repetition": "Remis przez trzykrotne powtórzenie pozycji.",
+
+  "game.chess.error.unknown_action": "Ta akcja nie dotyczy szachów.",
+  "game.chess.error.illegal_move": "To posunięcie jest niedozwolone w tej pozycji."
+}

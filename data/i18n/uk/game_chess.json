@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Шахи",
+  "game.chess.desc": "Класична гра королів: розвивайте фігури, контролюйте центр і ставте мат ворожому королю. Повні правила, зокрема рокірування, взяття на проході, перетворення пішака та всі правила нічиєї.",
+  "game.chess.rule.1": "Білі ходять першими. Кожна фігура рухається по-своєму; пішаки перетворюються на останній горизонталі, а король може один раз рокіруватися з турою.",
+  "game.chess.rule.2": "Перемагайте, ставлячи мат королю суперника. Пат, недостатній матеріал, триразове повторення та правило п'ятдесяти ходів дають нічию.",
+
+  "game.chess.phase.opening": "дебют",
+  "game.chess.phase.middlegame": "мітельшпіль",
+  "game.chess.phase.endgame": "ендшпіль",
+  "game.chess.phase.finished": "кінець партії",
+
+  "game.chess.option.castling": "Дозволити рокірування",
+  "game.chess.option.castling_hint": "Якщо вимкнено, король ніколи не пересувається на два поля, а тура не перестрибує через нього.",
+  "game.chess.option.en_passant": "Дозволити взяття на проході",
+  "game.chess.option.en_passant_hint": "Пішака, який щойно просунувся на два поля, можна взяти так, ніби він пройшов лише одне поле.",
+  "game.chess.option.fifty_move": "Правило п'ятдесяти ходів",
+  "game.chess.option.fifty_move_hint": "П'ятдесят ходів без взяття або ходу пішаком завершують партію нічиєю.",
+
+  "game.chess.colour_white": "Білі",
+  "game.chess.colour_black": "Чорні",
+  "game.chess.turn_line": "{player} грає за {colour}",
+  "game.chess.check_white": "Білі під шахом.",
+  "game.chess.check_black": "Чорні під шахом.",
+  "game.chess.move_number": "Хід {number}",
+  "game.chess.hint_top": "Підказка: {move}",
+  "game.chess.promotion": "Виберіть фігуру для перетворення пішака:",
+  "game.chess.captured": "Взято:",
+  "game.chess.selected": "Вибрано {square} ({piece})",
+  "game.chess.suggest": "Підказати хід",
+  "game.chess.notation_hint": "Натисніть фігуру, щоб побачити її легальні ходи, а потім натисніть підсвічене поле. Взяття позначено червоним.",
+
+  "game.chess.log_start": "{white} (Білі) грає проти {black} (Чорні).",
+  "game.chess.log_move": "{player} грає {move}.",
+
+  "game.chess.reason_checkmate": "Мат.",
+  "game.chess.reason_stalemate": "Пат: немає жодного легального ходу і немає шаху.",
+  "game.chess.reason_insufficient_material": "Нічия: недостатньо матеріалу, щоб поставити мат.",
+  "game.chess.reason_fifty_move": "Нічия за правилом п'ятдесяти ходів.",
+  "game.chess.reason_repetition": "Нічия через триразове повторення позиції.",
+
+  "game.chess.error.unknown_action": "Ця дія не належить до шахів.",
+  "game.chess.error.illegal_move": "Такий хід неприпустимий у цій позиції."
+}

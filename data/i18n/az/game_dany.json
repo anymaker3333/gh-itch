@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Blefə və cəsarətli iddialara əsaslanan kart oyunu: bir-üç kartı üzüaşağı qoyun və onların cəminin sizin rəqəminiz olduğuna and için — sonra masanın sizdən şübhələnib-şübhələnməyəcəyinə baxın. Tutulmuş yalan nüfuza başa gəlir, yersiz şübhə də.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "kart qoyulması",
+  "game.dany.phase.inspect": "yoxlama",
+  "game.dany.phase.finished": "oyun bitdi",
+
+  "game.dany.suit.ember": "köz",
+  "game.dany.suit.tide": "gelgit",
+  "game.dany.suit.grove": "meşə",
+  "game.dany.suit.dusk": "toran",
+  "game.dany.suit.frost": "şaxta",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "bu kartı qoy",
+  "game.dany.deselect": "bu kartı geri götür",
+  "game.dany.claim": "dəyər iddia et",
+  "game.dany.pass": "növbəni ötür",
+  "game.dany.inspect": "iddianı yoxla",
+  "game.dany.hold": "qüvvədə saxla",
+
+  "game.dany.table_title": "Masa",
+  "game.dany.history_title": "Nə baş verdi",
+  "game.dany.hand_title": "Əlindəki kartlar",
+  "game.dany.you": "siz",
+  "game.dany.out": "kənarlaşdırıldı",
+  "game.dany.chip_insight": "bəsirət {value}",
+  "game.dany.chip_reputation": "nüfuz {value}",
+  "game.dany.chip_cards": "{count} kart",
+  "game.dany.oracle_line": "Raund {round}: iddialar ən azı {oracle} göstərməlidir.",
+  "game.dany.claim_banner": "{player} {cards} kart qoyub və onların cəminin {value} olduğunu iddia edir.",
+  "game.dany.score_line": "{player}: bəsirət {insight}, nüfuz {reputation}",
+
+  "game.dany.status_select": "{player} bir-üç kart qoyub ən azı {oracle} iddia etməlidir (raund {round}).",
+  "game.dany.status_inspect": "{player} {cards} kartla {value} iddia edir — {responder} iddianı yoxlaya və ya qüvvədə saxlaya bilər.",
+  "game.dany.finished": "Partiya bitdi: {winner}",
+
+  "game.dany.claim_prompt": "Qoyduğun kartların cəmini iddia et",
+  "game.dany.claim_hint": "Əvvəlcə bir-üç kart qoyulmalıdır. Blef etmək olar — tutulmuş yalan bir nüfuza, yersiz şübhə də bir nüfuza başa gəlir.",
+  "game.dany.laid_line": "3 kartdan {count} qoyulub",
+  "game.dany.select_first": "İddia etmək üçün ən azı bir kart qoy.",
+  "game.dany.claim_button": "{value} iddia et",
+  "game.dany.inspect_prompt": "İddianı yoxla — yoxsa qüvvədə saxla?",
+  "game.dany.inspect_button": "İddianı yoxla",
+  "game.dany.hold_button": "Qüvvədə saxla",
+  "game.dany.fold_prompt": "Əlin boşdur — növbəni ötür və masanı gözlə.",
+  "game.dany.fold_button": "Növbəni ötür",
+
+  "game.dany.log_start": "DANY {count} oyunçu ilə başlayır: hərəyə {per_player} kart, {sealed} kart gizli saxlanılır.",
+  "game.dany.log_lay": "{player} {count} kart qoyur.",
+  "game.dany.log_claim": "{player} qoyduğu kartların ({cards}) {value} dəyərində olduğunu iddia edir.",
+  "game.dany.log_inspected_true": "{inspector} {player} oyunçusunu yoxlayır: kartlar ({cards}) həqiqətən {value} cəmini verir. Şübhə bir nüfuza başa gəlir.",
+  "game.dany.log_inspected_false": "{inspector} {player} oyunçusunu tutur: kartların ({cards}) cəmi {total} edir, {value} yox.",
+  "game.dany.log_unchallenged": "Heç kim {player} oyunçusundan şübhələnmir; kartlar ({cards}) açılmadan stoldan götürülür.",
+  "game.dany.log_fold": "{player} kartlarını bitirib növbəsini ötürür.",
+  "game.dany.log_eliminated": "{player} nüfuzunu tükədir və masanı tərk edir.",
+  "game.dany.log_new_round": "Orakul üç kartdan böyüyür — {round} raundu yeni hesabla başlayır.",
+
+  "game.dany.reason_last_standing": "Bütün digər yerlər kənarlaşdırıldı.",
+  "game.dany.reason_hands_empty": "Əllər boşdur; masada həlledici bəsirətdir.",
+  "game.dany.reason_turn_limit": "Masa gediş limitinə çatıb; masada həlledici bəsirətdir.",
+
+  "game.dany.error.illegal_action": "Hazırda bu, DANY-da qanuni əməliyyat deyil."
+}

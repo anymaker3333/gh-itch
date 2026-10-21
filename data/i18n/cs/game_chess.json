@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Šachy",
+  "game.chess.desc": "Klasická hra králů: rozviňte své figury, ovládněte centrum a dejte mat soupeřovu králi. Kompletní pravidla včetně rošády, braní mimochodem, proměny pěšce a všech pravidel pro remízu.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "zahájení",
+  "game.chess.phase.middlegame": "střední hra",
+  "game.chess.phase.endgame": "koncovka",
+  "game.chess.phase.finished": "konec hry",
+
+  "game.chess.option.castling": "Povolit rošádu",
+  "game.chess.option.castling_hint": "Když je vypnutá, král nesmí nikdy táhnout o dvě pole a věž přes něj nikdy nepřeskočí.",
+  "game.chess.option.en_passant": "Povolit braní mimochodem",
+  "game.chess.option.en_passant_hint": "Pěšce, který právě postoupil o dvě pole, lze vzít, jako by táhl jen o jedno pole.",
+  "game.chess.option.fifty_move": "Pravidlo padesáti tahů",
+  "game.chess.option.fifty_move_hint": "Padesát tahů bez braní a bez tahu pěšcem ukončí hru remízou.",
+
+  "game.chess.colour_white": "Bílý",
+  "game.chess.colour_black": "Černý",
+  "game.chess.turn_line": "{player} hraje {colour}",
+  "game.chess.check_white": "Bílý je v šachu.",
+  "game.chess.check_black": "Černý je v šachu.",
+  "game.chess.move_number": "Tah {number}",
+  "game.chess.hint_top": "Návrh tahu: {move}",
+  "game.chess.promotion": "Zvolte figuru pro proměnu pěšce:",
+  "game.chess.captured": "Zajaté figury:",
+  "game.chess.selected": "Vybráno: {square} ({piece})",
+  "game.chess.suggest": "Navrhnout tah",
+  "game.chess.notation_hint": "Kliknutím na figurku zobrazíte její povolené tahy a poté klikněte na zvýrazněné pole. Braní je označeno červeně.",
+
+  "game.chess.log_start": "{white} hraje bílými, {black} černými.",
+  "game.chess.log_move": "{player} hraje {move}.",
+
+  "game.chess.reason_checkmate": "Mat.",
+  "game.chess.reason_stalemate": "Pat: žádný povolený tah a žádný šach.",
+  "game.chess.reason_insufficient_material": "Remíza: nedostatečný materiál k vynucení matu.",
+  "game.chess.reason_fifty_move": "Remíza podle pravidla padesáti tahů.",
+  "game.chess.reason_repetition": "Remíza trojím opakováním pozice.",
+
+  "game.chess.error.unknown_action": "Tato akce do šachů nepatří.",
+  "game.chess.error.illegal_move": "Tento tah není v této pozici povolen."
+}

@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "A bluffing card game of bold claims: lay one to three cards face down and swear they add up to your number — then watch the table decide whether to doubt you. Caught lies cost reputation, needless doubts cost it too.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "laying cards",
+  "game.dany.phase.inspect": "inspection",
+  "game.dany.phase.finished": "game over",
+
+  "game.dany.suit.ember": "ember",
+  "game.dany.suit.tide": "tide",
+  "game.dany.suit.grove": "grove",
+  "game.dany.suit.dusk": "dusk",
+  "game.dany.suit.frost": "frost",
+  "game.dany.card": "{value} of {suit}",
+
+  "game.dany.select": "lay this card",
+  "game.dany.deselect": "take this card back",
+  "game.dany.claim": "claim a value",
+  "game.dany.pass": "fold",
+  "game.dany.inspect": "inspect the claim",
+  "game.dany.hold": "let it stand",
+
+  "game.dany.table_title": "The table",
+  "game.dany.history_title": "What just happened",
+  "game.dany.hand_title": "Your hand",
+  "game.dany.you": "you",
+  "game.dany.out": "eliminated",
+  "game.dany.chip_insight": "insight {value}",
+  "game.dany.chip_reputation": "reputation {value}",
+  "game.dany.chip_cards": "{count} cards",
+  "game.dany.oracle_line": "Round {round}: claims must name at least {oracle}.",
+  "game.dany.claim_banner": "{player} laid {cards} card(s) and claims they add up to {value}.",
+  "game.dany.score_line": "{player}: insight {insight}, reputation {reputation}",
+
+  "game.dany.status_select": "{player} must lay one to three cards and claim at least {oracle} (round {round}).",
+  "game.dany.status_inspect": "{player} claims {value} with {cards} card(s) laid — {responder} may inspect or let it stand.",
+  "game.dany.finished": "Match over: {winner}",
+
+  "game.dany.claim_prompt": "Claim the sum of your laid cards",
+  "game.dany.claim_hint": "One to three cards must be laid first. Bluffing is allowed — a caught lie costs a reputation, a needless doubt costs one too.",
+  "game.dany.laid_line": "{count} of 3 cards laid",
+  "game.dany.select_first": "Lay at least one card to make a claim.",
+  "game.dany.claim_button": "Claim {value}",
+  "game.dany.inspect_prompt": "Inspect the claim — or let it stand?",
+  "game.dany.inspect_button": "Inspect the claim",
+  "game.dany.hold_button": "Let it stand",
+  "game.dany.fold_prompt": "Your hand is empty — fold and wait for the table.",
+  "game.dany.fold_button": "Fold",
+
+  "game.dany.log_start": "DANY opens with {count} players: {per_player} cards each, {sealed} sealed away.",
+  "game.dany.log_lay": "{player} lays down {count} card(s).",
+  "game.dany.log_claim": "{player} claims the {cards} card(s) laid are worth {value}.",
+  "game.dany.log_inspected_true": "{inspector} inspects {player}: the cards ({cards}) truly add up to {value}. The doubt costs a reputation.",
+  "game.dany.log_inspected_false": "{inspector} catches {player}: {cards} adds up to {total}, not {value}.",
+  "game.dany.log_unchallenged": "Nobody doubts {player}; the {cards} card(s) are taken off the table unseen.",
+  "game.dany.log_fold": "{player} has no cards left and folds.",
+  "game.dany.log_eliminated": "{player} runs out of reputation and leaves the table.",
+  "game.dany.log_new_round": "The oracle outgrows three cards — round {round} begins with a fresh count.",
+
+  "game.dany.reason_last_standing": "Every other seat was eliminated.",
+  "game.dany.reason_hands_empty": "The hands are empty; insight decides the table.",
+  "game.dany.reason_turn_limit": "The table reached its turn cap; insight decides the table.",
+
+  "game.dany.error.illegal_action": "That is not a legal DANY action right now."
+}

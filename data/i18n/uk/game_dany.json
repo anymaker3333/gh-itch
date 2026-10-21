@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Карткова гра на блефі та сміливих заявках: викладіть одну–три карти долілиць і присягніться, що в сумі вони дають ваше число — а стіл сам вирішить, чи сумніватися у вас. Викрита брехня коштує репутації, марний сумнів — також.",
+  "game.dany.rule.1": "Кожного ходу викладіть від однієї до трьох карт долілиць і назвіть суму. Наступний гравець може засумніватися або підвищити ставку.",
+  "game.dany.rule.2": "Спійманий блеф або хибний сумнів коштує репутації. Втратьте всю репутацію — і ви вибуваєте; останній гравець перемагає.",
+
+  "game.dany.phase.select": "викладання карт",
+  "game.dany.phase.inspect": "перевірка",
+  "game.dany.phase.finished": "кінець гри",
+
+  "game.dany.suit.ember": "жар",
+  "game.dany.suit.tide": "приплив",
+  "game.dany.suit.grove": "гай",
+  "game.dany.suit.dusk": "сутінки",
+  "game.dany.suit.frost": "мороз",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "викласти цю карту",
+  "game.dany.deselect": "забрати цю карту",
+  "game.dany.claim": "заявити значення",
+  "game.dany.pass": "пропустити хід",
+  "game.dany.inspect": "перевірити заявку",
+  "game.dany.hold": "прийняти заявку",
+
+  "game.dany.table_title": "Стіл",
+  "game.dany.history_title": "Що щойно сталося",
+  "game.dany.hand_title": "Ваша рука",
+  "game.dany.you": "ви",
+  "game.dany.out": "вибув",
+  "game.dany.chip_insight": "прозорливість {value}",
+  "game.dany.chip_reputation": "репутація {value}",
+  "game.dany.chip_cards": "Карт: {count}",
+  "game.dany.oracle_line": "Раунд {round}: у заявці слід назвати щонайменше {oracle}.",
+  "game.dany.claim_banner": "{player} виклав карти ({cards}) і заявляє, що їхня сума — {value}.",
+  "game.dany.score_line": "{player}: прозорливість {insight}, репутація {reputation}",
+
+  "game.dany.status_select": "{player} має викласти від однієї до трьох карт і заявити щонайменше {oracle} (раунд {round}).",
+  "game.dany.status_inspect": "{player} заявляє {value} — викладено карти ({cards}); {responder} може перевірити заявку або прийняти її.",
+  "game.dany.finished": "Партію завершено: {winner}",
+
+  "game.dany.claim_prompt": "Заявіть суму викладених карт",
+  "game.dany.claim_hint": "Спершу треба викласти від однієї до трьох карт. Блефувати дозволено — викрита брехня коштує репутації, марний сумнів також.",
+  "game.dany.laid_line": "Викладено {count} з 3 карт",
+  "game.dany.select_first": "Щоб зробити заявку, викладіть хоча б одну карту.",
+  "game.dany.claim_button": "Заявити {value}",
+  "game.dany.inspect_prompt": "Перевірити заявку — чи прийняти її?",
+  "game.dany.inspect_button": "Перевірити заявку",
+  "game.dany.hold_button": "Прийняти заявку",
+  "game.dany.fold_prompt": "У вас більше немає карт — пропустіть хід і зачекайте на інших.",
+  "game.dany.fold_button": "Пропустити",
+
+  "game.dany.log_start": "DANY починається з {count} гравцями: кожному по {per_player} карт, ще {sealed} — у закриту.",
+  "game.dany.log_lay": "{player} викладає карти ({count}).",
+  "game.dany.log_claim": "{player} заявляє, що викладені карти ({cards}) варті {value}.",
+  "game.dany.log_inspected_true": "{inspector} перевіряє {player}: карти ({cards}) справді дають у сумі {value}. Сумнів коштує репутації.",
+  "game.dany.log_inspected_false": "{inspector} викриває {player}: карти ({cards}) дають у сумі {total}, а не {value}.",
+  "game.dany.log_unchallenged": "Ніхто не сумнівається в {player}: карти ({cards}) забирають зі столу закритими.",
+  "game.dany.log_fold": "У {player} не залишилося карт, і він пропускає хід.",
+  "game.dany.log_eliminated": "{player} втрачає останню репутацію та покидає стіл.",
+  "game.dany.log_new_round": "Оракул переростає три карти — раунд {round} починається з нового відліку.",
+
+  "game.dany.reason_last_standing": "Усі інші місця вибули.",
+  "game.dany.reason_hands_empty": "Руки порожні; долю столу вирішує прозорливість.",
+  "game.dany.reason_turn_limit": "Стіл сягнув межі ходів; долю столу вирішує прозорливість.",
+
+  "game.dany.error.illegal_action": "Зараз це неприпустима дія в DANY."
+}

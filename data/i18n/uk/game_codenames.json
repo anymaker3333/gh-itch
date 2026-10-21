@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Кодові імена",
+  "game.codenames.desc": "Дві команди наввипередки шукають своїх таємних агентів серед 25 слів на полі 5×5: капітан дає підказку з одного слова і число, розвідники відгадують — а одне хибне слово виявиться убивцею.",
+  "game.codenames.rule.1": "Шпигун-майстер дає підказку з одного слова й число. Команда вгадує стільки слів свого кольору.",
+  "game.codenames.rule.2": "Уникайте слів суперників і вбивці. Відкрийте всіх своїх агентів першими, щоб перемогти.",
+
+  "game.codenames.phase.clue": "підказка",
+  "game.codenames.phase.guess": "відгадування",
+  "game.codenames.phase.finished": "партію завершено",
+
+  "game.codenames.option.starting_team": "Команда, що починає",
+  "game.codenames.option.starting_team_hint": "Команда, що починає, має знайти дев'ять агентів, друга команда — вісім. За замовчуванням починають червоні.",
+  "game.codenames.option.team_red": "Червоні",
+  "game.codenames.option.team_blue": "Сині",
+
+  "game.codenames.team_red": "червона команда",
+  "game.codenames.team_blue": "синя команда",
+  "game.codenames.card_neutral": "мирний житель",
+  "game.codenames.card_assassin": "убивця",
+  "game.codenames.role_spymaster": "капітан",
+  "game.codenames.role_operative": "розвідник",
+
+  "game.codenames.your_role": "Ви граєте як {role} ({team}).",
+  "game.codenames.turn_clue": "Підказку дає {player} ({team}).",
+  "game.codenames.turn_guess": "{player} відгадує ({team}) — {clue}, {left}.",
+  "game.codenames.cue_line": "«{word}» на {number}",
+  "game.codenames.guesses_left.one": "залишилася {count} спроба в цьому ході",
+  "game.codenames.guesses_left.other": "залишилося спроб у цьому ході: {count}",
+  "game.codenames.agents_left": "Залишилося відкрити — червоні: {red}, сині: {blue}",
+  "game.codenames.key_visible": "Ваша картка з ключем позначена на полі: тримайте її при собі.",
+  "game.codenames.key_hidden": "Нерозкриті слова залишаються порожніми, доки хтось їх не відгадає.",
+  "game.codenames.cue_prompt": "Виберіть слово-підказку і число",
+  "game.codenames.board_hint": "Натисніть на нерозкрите слово, щоб відгадати його, або зупиніться, щоб завершити хід.",
+  "game.codenames.finished": "Партію завершено — {winner}",
+  "game.codenames.stop": "Припинити відгадувати",
+
+  "game.codenames.log_start": "Капітани: {red_spy} (червоні) і {blue_spy} (сині).",
+  "game.codenames.log_clue": "{player} ({team}) дає підказку «{word}» на {number}.",
+  "game.codenames.log_agent": "{player} відкриває «{card}» — агент ({team}).",
+  "game.codenames.log_bystander": "{player} відкриває «{card}» — мирний житель.",
+  "game.codenames.log_assassin": "{player} відкриває «{card}» — це убивця!",
+  "game.codenames.log_stop": "{player} припиняє відгадувати ({team}).",
+
+  "game.codenames.reason_all_agents": "Одна з команд знайшла всіх своїх агентів.",
+  "game.codenames.reason_assassin": "Убивцю було розкрито.",
+  "game.codenames.reason_turn_limit": "Досягнуто межі підказок, тому перемагає команда з більшою кількістю розкритих агентів.",
+  "game.codenames.reason_abandoned": "Одна з команд покинула стіл.",
+
+  "game.codenames.error.illegal_action": "Зараз це неприпустима дія в «Кодових іменах»."
+}

@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Codenames",
+  "game.codenames.desc": "Two teams race to uncover their secret agents on a 5×5 word grid: the spymaster gives a one-word clue and a number, the operatives guess — and one wrong word is the assassin.",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "clue",
+  "game.codenames.phase.guess": "guessing",
+  "game.codenames.phase.finished": "game over",
+
+  "game.codenames.option.starting_team": "Starting team",
+  "game.codenames.option.starting_team_hint": "The starting team has nine agents to find, the other team eight. Red starts by default.",
+  "game.codenames.option.team_red": "Red",
+  "game.codenames.option.team_blue": "Blue",
+
+  "game.codenames.team_red": "red team",
+  "game.codenames.team_blue": "blue team",
+  "game.codenames.card_neutral": "bystander",
+  "game.codenames.card_assassin": "assassin",
+  "game.codenames.role_spymaster": "spymaster",
+  "game.codenames.role_operative": "operative",
+
+  "game.codenames.your_role": "You play as the {role} of the {team}.",
+  "game.codenames.turn_clue": "{player} must give a clue for the {team}.",
+  "game.codenames.turn_guess": "{player} guesses for the {team} — clue {clue}, {left}.",
+  "game.codenames.cue_line": "\"{word}\" for {number}",
+  "game.codenames.guesses_left.one": "{count} guess left this turn",
+  "game.codenames.guesses_left.other": "{count} guesses left this turn",
+  "game.codenames.agents_left": "Left to reveal — red: {red}, blue: {blue}",
+  "game.codenames.key_visible": "Your key card is painted on the board: keep it to yourself.",
+  "game.codenames.key_hidden": "Unrevealed words stay blank until somebody guesses them.",
+  "game.codenames.cue_prompt": "Pick a cue word and a number",
+  "game.codenames.board_hint": "Click an unrevealed word to guess it, or stop to end the turn.",
+  "game.codenames.finished": "Match over: {winner}",
+  "game.codenames.stop": "Stop guessing",
+
+  "game.codenames.log_start": "The spymasters are {red_spy} (red) and {blue_spy} (blue).",
+  "game.codenames.log_clue": "{player} of the {team} clues \"{word}\" for {number}.",
+  "game.codenames.log_agent": "{player} reveals \"{card}\", a {team} agent.",
+  "game.codenames.log_bystander": "{player} reveals \"{card}\", a bystander.",
+  "game.codenames.log_assassin": "{player} reveals \"{card}\" — the assassin!",
+  "game.codenames.log_stop": "{player} stops guessing for the {team}.",
+
+  "game.codenames.reason_all_agents": "A team has found every one of its agents.",
+  "game.codenames.reason_assassin": "The assassin was revealed.",
+  "game.codenames.reason_turn_limit": "The clue limit was reached, so the team with more revealed agents wins.",
+  "game.codenames.reason_abandoned": "One team left the table.",
+
+  "game.codenames.error.illegal_action": "That is not a legal Codenames action right now."
+}

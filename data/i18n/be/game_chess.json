@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Шахматы",
+  "game.chess.desc": "Класічная гульня каралёў: развівайце фігуры, кантралюйце цэнтр і стаўце мат варожаму каралю. Поўныя правілы, уключаючы ракіроўку, узяцце на праходзе, ператварэнне пешкі і ўсе правілы, якія прыводзяць да нічыёй.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "дэбют",
+  "game.chess.phase.middlegame": "мітэльшпіль",
+  "game.chess.phase.endgame": "эндшпіль",
+  "game.chess.phase.finished": "партыя завершана",
+
+  "game.chess.option.castling": "Дазволіць ракіроўку",
+  "game.chess.option.castling_hint": "Калі выключана, кароль не можа хадзіць на два палі, а ладдзя не можа пераскочыць цераз яго.",
+  "game.chess.option.en_passant": "Дазволіць узяцце на праходзе",
+  "game.chess.option.en_passant_hint": "Пешку, якая толькі што прасунулася на два палі, можна ўзяць так, нібыта яна рушыла на адно поле.",
+  "game.chess.option.fifty_move": "Правіла пяцідзесяці хадоў",
+  "game.chess.option.fifty_move_hint": "Пяцьдзесят хадоў без узяцця і без ходу пешкай завяршаюць партыю нічыёй.",
+
+  "game.chess.colour_white": "Белыя",
+  "game.chess.colour_black": "Чорныя",
+  "game.chess.turn_line": "{player} — {colour}",
+  "game.chess.check_white": "Белыя пад шахам.",
+  "game.chess.check_black": "Чорныя пад шахам.",
+  "game.chess.move_number": "Ход {number}",
+  "game.chess.hint_top": "Прапанова: {move}",
+  "game.chess.promotion": "Выберыце фігуру для ператварэння:",
+  "game.chess.captured": "Узятыя фігуры:",
+  "game.chess.selected": "Выбрана: {square} ({piece})",
+  "game.chess.suggest": "Прапанаваць ход",
+  "game.chess.notation_hint": "Націсніце фігуру, каб убачыць яе дапушчальныя хады, затым націсніце падсветленае поле. Узяцці пазначаны чырвоным.",
+
+  "game.chess.log_start": "{white} (белыя) гуляе супраць {black} (чорныя).",
+  "game.chess.log_move": "{player} робіць ход {move}.",
+
+  "game.chess.reason_checkmate": "Мат.",
+  "game.chess.reason_stalemate": "Пат: няма дапушчальных хадоў, але шах не аб’яўлены.",
+  "game.chess.reason_insufficient_material": "Нічыя: недастаткова матэрыялу, каб паставіць мат.",
+  "game.chess.reason_fifty_move": "Нічыя паводле правіла пяцідзесяці хадоў.",
+  "game.chess.reason_repetition": "Нічыя праз трайное паўтарэнне пазіцыі.",
+
+  "game.chess.error.unknown_action": "Гэтае дзеянне не адносіцца да шахмат.",
+  "game.chess.error.illegal_move": "Гэты ход недапушчальны ў гэтай пазіцыі."
+}

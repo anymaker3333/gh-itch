@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Karciana gra w blef i śmiałe deklaracje: wyłóż jedną do trzech zakrytych kart i przysięgnij, że ich suma to twoja liczba — a stół zadecyduje, czy w ciebie zwątpić. Przyłapane kłamstwo kosztuje reputację, niepotrzebna wątpliwość też.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "wykładanie kart",
+  "game.dany.phase.inspect": "sprawdzenie",
+  "game.dany.phase.finished": "koniec gry",
+
+  "game.dany.suit.ember": "żar",
+  "game.dany.suit.tide": "przypływ",
+  "game.dany.suit.grove": "gaj",
+  "game.dany.suit.dusk": "zmierzch",
+  "game.dany.suit.frost": "mróz",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "wyłóż tę kartę",
+  "game.dany.deselect": "cofnij tę kartę",
+  "game.dany.claim": "zadeklaruj wartość",
+  "game.dany.pass": "spasuj",
+  "game.dany.inspect": "sprawdź deklarację",
+  "game.dany.hold": "uznaj deklarację",
+
+  "game.dany.table_title": "Stół",
+  "game.dany.history_title": "Co się właśnie stało",
+  "game.dany.hand_title": "Twoja ręka",
+  "game.dany.you": "ty",
+  "game.dany.out": "wyeliminowany",
+  "game.dany.chip_insight": "przenikliwość {value}",
+  "game.dany.chip_reputation": "reputacja {value}",
+  "game.dany.chip_cards": "Kart: {count}",
+  "game.dany.oracle_line": "Runda {round}: deklaracje muszą wskazywać co najmniej {oracle}.",
+  "game.dany.claim_banner": "{player} wyłożył karty ({cards}) i deklaruje, że ich suma to {value}.",
+  "game.dany.score_line": "{player}: przenikliwość {insight}, reputacja {reputation}",
+
+  "game.dany.status_select": "{player} musi wyłożyć od jednej do trzech kart i zadeklarować co najmniej {oracle} (runda {round}).",
+  "game.dany.status_inspect": "{player} deklaruje {value}, wyłożone karty: {cards} — {responder} może sprawdzić deklarację albo ją uznać.",
+  "game.dany.finished": "Koniec rozgrywki: {winner}",
+
+  "game.dany.claim_prompt": "Zadeklaruj sumę wyłożonych kart",
+  "game.dany.claim_hint": "Najpierw trzeba wyłożyć od jednej do trzech kart. Blefować wolno — przyłapane kłamstwo kosztuje reputację, niepotrzebna wątpliwość też.",
+  "game.dany.laid_line": "Wyłożono {count} z 3 kart",
+  "game.dany.select_first": "Aby złożyć deklarację, wyłóż co najmniej jedną kartę.",
+  "game.dany.claim_button": "Zadeklaruj {value}",
+  "game.dany.inspect_prompt": "Sprawdzić deklarację — czy ją uznać?",
+  "game.dany.inspect_button": "Sprawdź deklarację",
+  "game.dany.hold_button": "Uznaj deklarację",
+  "game.dany.fold_prompt": "Nie masz już kart — spasuj i poczekaj na swoją kolej.",
+  "game.dany.fold_button": "Spasuj",
+
+  "game.dany.log_start": "DANY zaczyna się z {count} graczami: po {per_player} kart każdemu, odłożone: {sealed}.",
+  "game.dany.log_lay": "{player} wykłada karty: {count}.",
+  "game.dany.log_claim": "{player} deklaruje, że wyłożone karty ({cards}) są warte {value}.",
+  "game.dany.log_inspected_true": "{inspector} sprawdza {player}: karty ({cards}) naprawdę sumują się do {value}. Wątpliwość kosztuje reputację.",
+  "game.dany.log_inspected_false": "{inspector} przyłapuje {player}: karty ({cards}) sumują się do {total}, nie {value}.",
+  "game.dany.log_unchallenged": "Nikt nie wątpi w {player}; karty ({cards}) znikają ze stołu nieodkryte.",
+  "game.dany.log_fold": "{player} nie ma już kart i pasuje.",
+  "game.dany.log_eliminated": "{player} traci resztę reputacji i opuszcza stół.",
+  "game.dany.log_new_round": "Wyrocznia przekracza trzy karty — runda {round} zaczyna się od nowego liczenia.",
+
+  "game.dany.reason_last_standing": "Wszystkie pozostałe miejsca zostały wyeliminowane.",
+  "game.dany.reason_hands_empty": "Ręce są puste; o stole decyduje przenikliwość.",
+  "game.dany.reason_turn_limit": "Stół osiągnął limit tur; o stole decyduje przenikliwość.",
+
+  "game.dany.error.illegal_action": "To nie jest teraz dozwolona akcja w DANY."
+}

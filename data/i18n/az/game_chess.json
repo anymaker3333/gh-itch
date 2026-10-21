@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Şahmat",
+  "game.chess.desc": "Şahların klassik oyunu: fiqurlarınızı inkişaf etdirin, mərkəzə nəzarət edin və rəqibin şahını mat edin. Qala qurma, keçərkən vurma, piyadanın çevrilməsi və heç-heçəyə səbəb olan bütün qaydalar daxil olmaqla tam qaydalar.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "debüt",
+  "game.chess.phase.middlegame": "mittelşpil",
+  "game.chess.phase.endgame": "endşpil",
+  "game.chess.phase.finished": "oyun bitdi",
+
+  "game.chess.option.castling": "Qala qurmağa icazə ver",
+  "game.chess.option.castling_hint": "Söndürüləndə şah heç vaxt iki xana yeriyə bilməz və qala onun üzərindən atlamır.",
+  "game.chess.option.en_passant": "Keçərkən vurmağa icazə ver",
+  "game.chess.option.en_passant_hint": "Elə iki xana irəliləmiş piyadanı sanki bir xana yerimiş kimi vurmaq olar.",
+  "game.chess.option.fifty_move": "Əlli gediş qaydası",
+  "game.chess.option.fifty_move_hint": "Vurma və ya piyada gedişi olmadan keçən əlli gediş partiyanı heç-heçə ilə bitirir.",
+
+  "game.chess.colour_white": "Ağ",
+  "game.chess.colour_black": "Qara",
+  "game.chess.turn_line": "{player} {colour} fiqurlarla oynayır",
+  "game.chess.check_white": "Ağ şah altındadır.",
+  "game.chess.check_black": "Qara şah altındadır.",
+  "game.chess.move_number": "Gediş {number}",
+  "game.chess.hint_top": "Təklif: {move}",
+  "game.chess.promotion": "Çevrilmə fiqurunu seçin:",
+  "game.chess.captured": "Vurulanlar:",
+  "game.chess.selected": "Seçildi: {square} ({piece})",
+  "game.chess.suggest": "Gediş təklif et",
+  "game.chess.notation_hint": "Fiqurun qanuni gedişlərini görmək üçün onun üzərinə klikləyin, sonra işıqlandırılmış xanaya klikləyin. Vurma gedişləri qırmızı ilə işarələnir.",
+
+  "game.chess.log_start": "{white} (Ağ) {black} (Qara) ilə oynayır.",
+  "game.chess.log_move": "{player} {move} gedişini oynayır.",
+
+  "game.chess.reason_checkmate": "Mat.",
+  "game.chess.reason_stalemate": "Pat: qanuni gediş yoxdur və şah da verilmir.",
+  "game.chess.reason_insufficient_material": "Heç-heçə: mat etmək üçün kifayət qədər material yoxdur.",
+  "game.chess.reason_fifty_move": "Əlli gediş qaydasına görə heç-heçə.",
+  "game.chess.reason_repetition": "Üçqat təkrarlanmaya görə heç-heçə.",
+
+  "game.chess.error.unknown_action": "Bu əməliyyat şahmata aid deyil.",
+  "game.chess.error.illegal_move": "Bu gediş hazırkı mövqedə qanuni deyil."
+}

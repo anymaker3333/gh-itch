@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Tajniacy",
+  "game.codenames.desc": "Dwie drużyny ścigają się, by odnaleźć swoich tajnych agentów na planszy ze słowami 5×5: szef podaje jednowyrazową wskazówkę i liczbę, agenci zgadują — a jedno błędne słowo to zabójca.",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "wskazówka",
+  "game.codenames.phase.guess": "zgadywanie",
+  "game.codenames.phase.finished": "koniec gry",
+
+  "game.codenames.option.starting_team": "Drużyna rozpoczynająca",
+  "game.codenames.option.starting_team_hint": "Drużyna rozpoczynająca ma do odnalezienia dziewięciu agentów, druga drużyna ośmiu. Domyślnie zaczyna Drużyna Czerwonych.",
+  "game.codenames.option.team_red": "Czerwoni",
+  "game.codenames.option.team_blue": "Niebiescy",
+
+  "game.codenames.team_red": "Drużyna Czerwonych",
+  "game.codenames.team_blue": "Drużyna Niebieskich",
+  "game.codenames.card_neutral": "niewinny obserwator",
+  "game.codenames.card_assassin": "zabójca",
+  "game.codenames.role_spymaster": "szef",
+  "game.codenames.role_operative": "tajniak",
+
+  "game.codenames.your_role": "Grasz jako {role} ({team}).",
+  "game.codenames.turn_clue": "Wskazówkę podaje {player} ({team}).",
+  "game.codenames.turn_guess": "{player} zgaduje ({team}) — {clue}, {left}.",
+  "game.codenames.cue_line": "„{word}” na {number}",
+  "game.codenames.guesses_left.one": "w tej turze można jeszcze zgadnąć {count} raz",
+  "game.codenames.guesses_left.other": "w tej turze można jeszcze zgadnąć {count} razy",
+  "game.codenames.agents_left": "Pozostało odkryć — Drużyna Czerwonych: {red}, Drużyna Niebieskich: {blue}",
+  "game.codenames.key_visible": "Twoja karta klucza jest widoczna na planszy: nie pokazuj jej innym.",
+  "game.codenames.key_hidden": "Nieodkryte słowa pozostają puste, dopóki ktoś ich nie zgadnie.",
+  "game.codenames.cue_prompt": "Wybierz słowo wskazówki i liczbę",
+  "game.codenames.board_hint": "Kliknij nieodkryte słowo, aby je odgadnąć, albo zakończ turę.",
+  "game.codenames.finished": "Koniec rozgrywki — {winner}",
+  "game.codenames.stop": "Przestań zgadywać",
+
+  "game.codenames.log_start": "Szefowie to {red_spy} (Drużyna Czerwonych) i {blue_spy} (Drużyna Niebieskich).",
+  "game.codenames.log_clue": "{player} ({team}) podaje wskazówkę „{word}” na {number}.",
+  "game.codenames.log_agent": "{player} odkrywa „{card}” — agent ({team}).",
+  "game.codenames.log_bystander": "{player} odkrywa „{card}” — niewinny obserwator.",
+  "game.codenames.log_assassin": "{player} odkrywa „{card}” — zabójca!",
+  "game.codenames.log_stop": "{player} przestaje zgadywać ({team}).",
+
+  "game.codenames.reason_all_agents": "Jedna z drużyn odnalazła wszystkich swoich agentów.",
+  "game.codenames.reason_assassin": "Zabójca został odkryty.",
+  "game.codenames.reason_turn_limit": "Osiągnięto limit wskazówek, więc wygrywa drużyna z większą liczbą odkrytych agentów.",
+  "game.codenames.reason_abandoned": "Jedna z drużyn odeszła od stołu.",
+
+  "game.codenames.error.illegal_action": "To nie jest teraz dozwolona akcja w Tajniakach."
+}

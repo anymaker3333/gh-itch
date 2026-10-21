@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Un jeu de cartes de bluff et de hardies annonces : posez une à trois cartes face cachée et jurez que leur somme égale votre nombre — puis laissez la table décider si elle doute de vous. Un mensonge démasqué coûte de la réputation, un doute inutile aussi.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "pose des cartes",
+  "game.dany.phase.inspect": "vérification",
+  "game.dany.phase.finished": "partie terminée",
+
+  "game.dany.suit.ember": "braise",
+  "game.dany.suit.tide": "marée",
+  "game.dany.suit.grove": "bosquet",
+  "game.dany.suit.dusk": "crépuscule",
+  "game.dany.suit.frost": "givre",
+  "game.dany.card": "{value} de {suit}",
+
+  "game.dany.select": "poser cette carte",
+  "game.dany.deselect": "reprendre cette carte",
+  "game.dany.claim": "annoncer une valeur",
+  "game.dany.pass": "passer",
+  "game.dany.inspect": "vérifier l'annonce",
+  "game.dany.hold": "laisser passer",
+
+  "game.dany.table_title": "La table",
+  "game.dany.history_title": "Ce qui vient de se passer",
+  "game.dany.hand_title": "Votre main",
+  "game.dany.you": "vous",
+  "game.dany.out": "éliminé",
+  "game.dany.chip_insight": "lucidité {value}",
+  "game.dany.chip_reputation": "réputation {value}",
+  "game.dany.chip_cards": "{count} carte(s)",
+  "game.dany.oracle_line": "Manche {round} : les annonces doivent indiquer au moins {oracle}.",
+  "game.dany.claim_banner": "{player} a posé {cards} carte(s) et annonce qu'elles totalisent {value}.",
+  "game.dany.score_line": "{player} : lucidité {insight}, réputation {reputation}",
+
+  "game.dany.status_select": "{player} doit poser une à trois cartes et annoncer au moins {oracle} (manche {round}).",
+  "game.dany.status_inspect": "{player} annonce {value} avec {cards} carte(s) posée(s) — {responder} peut vérifier l'annonce ou la laisser passer.",
+  "game.dany.finished": "Partie terminée : {winner}",
+
+  "game.dany.claim_prompt": "Annoncez la somme de vos cartes posées",
+  "game.dany.claim_hint": "Il faut d'abord poser une à trois cartes. Le bluff est permis — un mensonge démasqué coûte de la réputation, un doute inutile aussi.",
+  "game.dany.laid_line": "{count} carte(s) posée(s) sur 3",
+  "game.dany.select_first": "Posez au moins une carte pour faire une annonce.",
+  "game.dany.claim_button": "Annoncer {value}",
+  "game.dany.inspect_prompt": "Vérifier l'annonce — ou la laisser passer ?",
+  "game.dany.inspect_button": "Vérifier l'annonce",
+  "game.dany.hold_button": "Laisser passer",
+  "game.dany.fold_prompt": "Votre main est vide — passez et laissez la table continuer.",
+  "game.dany.fold_button": "Passer",
+
+  "game.dany.log_start": "DANY commence avec {count} joueurs : {per_player} cartes chacun, {sealed} mise(s) de côté.",
+  "game.dany.log_lay": "{player} pose {count} carte(s).",
+  "game.dany.log_claim": "{player} annonce que les {cards} carte(s) posée(s) valent {value}.",
+  "game.dany.log_inspected_true": "{inspector} vérifie {player} : les cartes ({cards}) totalisent bien {value}. Le doute coûte de la réputation.",
+  "game.dany.log_inspected_false": "{inspector} démasque {player} : les cartes ({cards}) totalisent {total}, pas {value}.",
+  "game.dany.log_unchallenged": "Personne ne doute de {player} ; les {cards} carte(s) quittent la table sans être vues.",
+  "game.dany.log_fold": "{player} n'a plus de cartes et passe.",
+  "game.dany.log_eliminated": "{player} épuise sa réputation et quitte la table.",
+  "game.dany.log_new_round": "L'oracle dépasse trois cartes — la manche {round} repart avec un nouveau compte.",
+
+  "game.dany.reason_last_standing": "Toutes les autres places ont été éliminées.",
+  "game.dany.reason_hands_empty": "Les mains sont vides ; la lucidité décide de la table.",
+  "game.dany.reason_turn_limit": "La table a atteint sa limite de tours ; la lucidité décide de la table.",
+
+  "game.dany.error.illegal_action": "Ce n'est pas une action DANY valide pour le moment."
+}

@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Krycí jména",
+  "game.codenames.desc": "Dva týmy závodí, kdo dřív odhalí své tajné agenty na mřížce 5×5 ze slov: šéf dává nápovědu z jednoho slova a číslo, agenti hádají — a jedno špatné slovo je nájemný vrah.",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "nápověda",
+  "game.codenames.phase.guess": "hádání",
+  "game.codenames.phase.finished": "konec partie",
+
+  "game.codenames.option.starting_team": "Zahajující tým",
+  "game.codenames.option.starting_team_hint": "Zahajující tým má najít devět agentů, druhý tým osm. Standardně začíná červený tým.",
+  "game.codenames.option.team_red": "Červení",
+  "game.codenames.option.team_blue": "Modří",
+
+  "game.codenames.team_red": "červený tým",
+  "game.codenames.team_blue": "modrý tým",
+  "game.codenames.card_neutral": "kolemjdoucí",
+  "game.codenames.card_assassin": "nájemný vrah",
+  "game.codenames.role_spymaster": "šéf",
+  "game.codenames.role_operative": "agent",
+
+  "game.codenames.your_role": "Hrajete za {team} jako {role}.",
+  "game.codenames.turn_clue": "Nápovědu dává {player} za {team}.",
+  "game.codenames.turn_guess": "{player} hádá za {team} — {clue}, {left}.",
+  "game.codenames.cue_line": "„{word}“ na {number}",
+  "game.codenames.guesses_left.one": "zbývá {count} pokus v tomto tahu",
+  "game.codenames.guesses_left.other": "zbývá pokusů v tomto tahu: {count}",
+  "game.codenames.agents_left": "Zbývá odhalit — červený tým: {red}, modrý tým: {blue}",
+  "game.codenames.key_visible": "Vaše karta klíče je vyznačena na desce: nikomu ji neukazujte.",
+  "game.codenames.key_hidden": "Neodhalená slova zůstávají prázdná, dokud je někdo neuhodne.",
+  "game.codenames.cue_prompt": "Vyberte slovo nápovědy a číslo",
+  "game.codenames.board_hint": "Klikněte na neodhalené slovo, abyste ho uhodli, nebo hádání ukončete.",
+  "game.codenames.finished": "Konec partie — {winner}",
+  "game.codenames.stop": "Ukončit hádání",
+
+  "game.codenames.log_start": "Šéfové jsou {red_spy} (červený tým) a {blue_spy} (modrý tým).",
+  "game.codenames.log_clue": "{player} za {team} napovídá „{word}“ na {number}.",
+  "game.codenames.log_agent": "{player} odhaluje „{card}“ — agent ({team}).",
+  "game.codenames.log_bystander": "{player} odhaluje „{card}“ — kolemjdoucí.",
+  "game.codenames.log_assassin": "{player} odhaluje „{card}“ — nájemný vrah!",
+  "game.codenames.log_stop": "{player} přestává hádat za {team}.",
+
+  "game.codenames.reason_all_agents": "Jeden z týmů našel všechny své agenty.",
+  "game.codenames.reason_assassin": "Byl odhalen nájemný vrah.",
+  "game.codenames.reason_turn_limit": "Byl dosažen limit nápověd, takže vyhrává tým s více odhalenými agenty.",
+  "game.codenames.reason_abandoned": "Jeden z týmů opustil stůl.",
+
+  "game.codenames.error.illegal_action": "Toto není v tuto chvíli povolená akce v Krycích jménech."
+}

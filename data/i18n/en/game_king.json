@@ -1,0 +1,51 @@
+{
+  "game.king.name": "King",
+  "game.king.desc": "The trick-avoidance classic: dodge every heart, the queen of spades and the king of hearts, or shoot the moon and win the deal outright.",
+  "game.king.rule.1": "Follow suit when possible and avoid taking hearts, the queen of spades and the king of hearts.",
+  "game.king.rule.2": "Each penalty card scores against you. Taking every penalty card shoots the moon and reverses the scores.",
+
+  "game.king.phase.passing": "passing",
+  "game.king.phase.playing": "playing",
+  "game.king.phase.finished": "deal over",
+
+  "game.king.option.passing": "Pass three cards",
+  "game.king.option.passing_hint": "Each player picks three cards and passes them to the player on the left before the first trick.",
+  "game.king.option.shoot_moon": "Shoot the moon",
+  "game.king.option.shoot_moon_hint": "A player who takes every heart and the queen of spades has those penalties waived and still keeps the king of hearts bonus.",
+
+  "game.king.table_label": "The trick",
+  "game.king.table_empty": "Waiting for the lead.",
+  "game.king.picks_label": "Your picks",
+  "game.king.picks_none": "No cards picked yet.",
+  "game.king.hand_label": "Your hand",
+  "game.king.hand_empty": "No cards in hand.",
+  "game.king.players_label": "Players",
+  "game.king.hint": "Click a card to play it. Follow the led suit while you can.",
+  "game.king.hint_passing": "Click three cards to pass them to the player on your left.",
+  "game.king.trick_no": "Trick {count}",
+  "game.king.aside_count": "Set aside: {count}",
+  "game.king.hearts_seen": "Hearts: {count}",
+  "game.king.picks_progress": "picked {picked}/{total}",
+  "game.king.role_leader": "leads",
+  "game.king.chip_hearts": "♥ {count}",
+  "game.king.chip_queen": "Q♠ {count}",
+  "game.king.chip_king": "K♥ {count}",
+  "game.king.chip_score": "{score} pts",
+  "game.king.cards.one": "{count} card",
+  "game.king.cards.other": "{count} cards",
+  "game.king.status_passing": "{player} picks a card to pass ({picked} of {total} picked).",
+  "game.king.status_lead": "{player} leads the trick.",
+  "game.king.status_follow": "{player} plays to the trick led by {leader}.",
+
+  "game.king.log_start": "The deal: {cards} cards each, {aside} set aside.",
+  "game.king.log_pick": "{player} picks a card for the pass.",
+  "game.king.log_pass": "Three cards from every player are passed to the left.",
+  "game.king.log_play": "{player} plays {card}.",
+  "game.king.log_trick": "{player} takes the trick.",
+  "game.king.log_moon": "{player} took every heart and the queen of spades!",
+
+  "game.king.reason.finished": "The deal is complete: the fewest points wins.",
+
+  "game.king.error.unknown_action": "That action does not belong to king.",
+  "game.king.error.illegal_action": "That card cannot be played now."
+}

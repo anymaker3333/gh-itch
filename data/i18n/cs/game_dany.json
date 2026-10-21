@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Karetní hra o blafování a smělých tvrzeních: vyložte jednu až tři karty rubem nahoru a přísahejte, že se jejich součet rovná vašemu číslu — a nechte stůl rozhodnout, zda o vás zapochybuje. Přistižená lež stojí pověst, zbytečná pochybnost také.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "vyložení karet",
+  "game.dany.phase.inspect": "kontrola",
+  "game.dany.phase.finished": "konec hry",
+
+  "game.dany.suit.ember": "žár",
+  "game.dany.suit.tide": "příliv",
+  "game.dany.suit.grove": "háj",
+  "game.dany.suit.dusk": "soumrak",
+  "game.dany.suit.frost": "mráz",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "vyložit tuto kartu",
+  "game.dany.deselect": "vzít tuto kartu zpět",
+  "game.dany.claim": "tvrdit hodnotu",
+  "game.dany.pass": "vynechat kolo",
+  "game.dany.inspect": "zkontrolovat tvrzení",
+  "game.dany.hold": "nechat platit",
+
+  "game.dany.table_title": "Stůl",
+  "game.dany.history_title": "Co se právě stalo",
+  "game.dany.hand_title": "Vaše karty",
+  "game.dany.you": "vy",
+  "game.dany.out": "vyřazen",
+  "game.dany.chip_insight": "vhled {value}",
+  "game.dany.chip_reputation": "pověst {value}",
+  "game.dany.chip_cards": "Karet: {count}",
+  "game.dany.oracle_line": "Kolo {round}: tvrzení musí uvést alespoň {oracle}.",
+  "game.dany.claim_banner": "{player} vyložil karty ({cards}) a tvrdí, že jejich součet je {value}.",
+  "game.dany.score_line": "{player}: vhled {insight}, pověst {reputation}",
+
+  "game.dany.status_select": "{player} musí vyložit jednu až tři karty a tvrdit alespoň {oracle} (kolo {round}).",
+  "game.dany.status_inspect": "{player} tvrdí {value} s vyloženými kartami ({cards}) — {responder} může tvrzení zkontrolovat, nebo je nechat platit.",
+  "game.dany.finished": "Konec partie: {winner}",
+
+  "game.dany.claim_prompt": "Tvrďte součet svých vyložených karet",
+  "game.dany.claim_hint": "Nejprve je třeba vyložit jednu až tři karty. Blafovat se smí — přistižená lež stojí pověst, zbytečná pochybnost také.",
+  "game.dany.laid_line": "Vyloženo {count} ze 3 karet",
+  "game.dany.select_first": "Pro tvrzení musíte vyložit alespoň jednu kartu.",
+  "game.dany.claim_button": "Tvrdit {value}",
+  "game.dany.inspect_prompt": "Zkontrolovat tvrzení — nebo je nechat platit?",
+  "game.dany.inspect_button": "Zkontrolovat tvrzení",
+  "game.dany.hold_button": "Nechat platit",
+  "game.dany.fold_prompt": "V ruce už nemáte karty — vynechte kolo a počkejte na ostatní.",
+  "game.dany.fold_button": "Vynechat",
+
+  "game.dany.log_start": "DANY začíná — celkem {count} hráčů, každý s {per_player} kartami, odložené karty: {sealed}.",
+  "game.dany.log_lay": "{player} vyloží karty: {count}.",
+  "game.dany.log_claim": "{player} tvrdí, že vyložené karty ({cards}) mají hodnotu {value}.",
+  "game.dany.log_inspected_true": "{inspector} zkontroluje {player}: karty ({cards}) skutečně dávají {value}. Pochybnost stojí pověst.",
+  "game.dany.log_inspected_false": "{inspector} přistihne {player}: karty ({cards}) dávají {total}, ne {value}.",
+  "game.dany.log_unchallenged": "Nikdo o {player} nezapochybuje; karty ({cards}) se ze stolu odnesou, aniž je někdo uvidí.",
+  "game.dany.log_fold": "{player} už nemá karty a vynechává kolo.",
+  "game.dany.log_eliminated": "{player} vyčerpá svou pověst a opouští stůl.",
+  "game.dany.log_new_round": "Orákulum přesáhne tři karty — kolo {round} začíná s novým počtem.",
+
+  "game.dany.reason_last_standing": "Všechna ostatní místa byla vyřazena.",
+  "game.dany.reason_hands_empty": "Ruce jsou prázdné; o stole rozhoduje vhled.",
+  "game.dany.reason_turn_limit": "Stůl dosáhl limitu tahů; o stole rozhoduje vhled.",
+
+  "game.dany.error.illegal_action": "Tato akce teď není v DANY povolená."
+}

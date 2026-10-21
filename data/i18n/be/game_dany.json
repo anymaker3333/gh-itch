@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Картачная гульня на блефе і смелых заявах: выкладзіце ад адной да трох карт долам і прысягніце, што ў суме яны даюць ваш лік — а стол сам вырашыць, ці сумнявацца ў вас. Выкрытая хлусня каштуе рэпутацыі, дарэмнае сумненне — таксама.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "выкладка карт",
+  "game.dany.phase.inspect": "праверка",
+  "game.dany.phase.finished": "гульня завершана",
+
+  "game.dany.suit.ember": "жар",
+  "game.dany.suit.tide": "прыліў",
+  "game.dany.suit.grove": "гай",
+  "game.dany.suit.dusk": "змрок",
+  "game.dany.suit.frost": "мароз",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "выкласці гэтую карту",
+  "game.dany.deselect": "вярнуць гэтую карту",
+  "game.dany.claim": "заявіць значэнне",
+  "game.dany.pass": "прапусціць ход",
+  "game.dany.inspect": "праверыць заяву",
+  "game.dany.hold": "прыняць заяву",
+
+  "game.dany.table_title": "Стол",
+  "game.dany.history_title": "Што толькі што адбылося",
+  "game.dany.hand_title": "Ваша рука",
+  "game.dany.you": "вы",
+  "game.dany.out": "выбыў",
+  "game.dany.chip_insight": "праніклівасць {value}",
+  "game.dany.chip_reputation": "рэпутацыя {value}",
+  "game.dany.chip_cards": "Карт: {count}",
+  "game.dany.oracle_line": "Раунд {round}: у заяве трэба назваць мінімум {oracle}.",
+  "game.dany.claim_banner": "{player} выклаў карты ({cards}) і заяўляе, што іх сума — {value}.",
+  "game.dany.score_line": "{player}: праніклівасць {insight}, рэпутацыя {reputation}",
+
+  "game.dany.status_select": "{player} мусіць выкласці ад адной да трох карт і заявіць мінімум {oracle} (раунд {round}).",
+  "game.dany.status_inspect": "{player} заяўляе {value} — выкладзеныя карты ({cards}); {responder} можа праверыць або прыняць заяву.",
+  "game.dany.finished": "Партыя завершана: {winner}",
+
+  "game.dany.claim_prompt": "Заявіце суму выкладзеных карт",
+  "game.dany.claim_hint": "Спачатку трэба выкласці ад адной да трох карт. Блефаваць можна — выкрытая хлусня каштуе рэпутацыі, дарэмнае сумненне таксама.",
+  "game.dany.laid_line": "Выкладзена {count} з 3 карт",
+  "game.dany.select_first": "Каб зрабіць заяву, выкладзіце хаця б адну карту.",
+  "game.dany.claim_button": "Заявіць {value}",
+  "game.dany.inspect_prompt": "Праверыць заяву — ці проста прыняць?",
+  "game.dany.inspect_button": "Праверыць заяву",
+  "game.dany.hold_button": "Прыняць заяву",
+  "game.dany.fold_prompt": "У вас больш не засталося карт — прапусціце ход і чакайце стол.",
+  "game.dany.fold_button": "Прапусціць",
+
+  "game.dany.log_start": "DANY пачынаецца — гульцоў: {count}, па {per_player} карт кожнаму, убок адкладзена: {sealed}.",
+  "game.dany.log_lay": "{player} выкладае карты: {count}.",
+  "game.dany.log_claim": "{player} заяўляе, што выкладзеныя карты ({cards}) вартыя {value}.",
+  "game.dany.log_inspected_true": "{inspector} правярае {player}: карты ({cards}) сапраўды даюць у суме {value}. Сумненне каштуе рэпутацыі.",
+  "game.dany.log_inspected_false": "{inspector} ловіць {player}: карты ({cards}) даюць у суме {total}, а не {value}.",
+  "game.dany.log_unchallenged": "Ніхто не сумняваецца ў {player}; карты ({cards}) забіраюць са стала, не адкрываючы.",
+  "game.dany.log_fold": "У {player} больш не засталося карт, і ён прапускае ход.",
+  "game.dany.log_eliminated": "{player} губляе ўсю рэпутацыю і пакідае стол.",
+  "game.dany.log_new_round": "Аракул перарастае тры карты — раунд {round} пачынаецца з новага ліку.",
+
+  "game.dany.reason_last_standing": "Усе астатнія месцы выбылі.",
+  "game.dany.reason_hands_empty": "Рукі пустыя; лёс стала вырашае праніклівасць.",
+  "game.dany.reason_turn_limit": "Стол дасягнуў ліміту хадоў; лёс стала вырашае праніклівасць.",
+
+  "game.dany.error.illegal_action": "Зараз гэта недапушчальнае дзеянне для DANY."
+}

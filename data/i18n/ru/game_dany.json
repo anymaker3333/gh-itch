@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Карточная игра на блефе и смелых заявках: выложите одну–три карты рубашкой вверх и поклянитесь, что в сумме они дают ваше число — а стол сам решит, усомниться ли в вас. Уличённая ложь стоит репутации, напрасное сомнение — тоже.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "выкладывание карт",
+  "game.dany.phase.inspect": "проверка",
+  "game.dany.phase.finished": "партия окончена",
+
+  "game.dany.suit.ember": "жар",
+  "game.dany.suit.tide": "прилив",
+  "game.dany.suit.grove": "роща",
+  "game.dany.suit.dusk": "сумерки",
+  "game.dany.suit.frost": "мороз",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "выложить эту карту",
+  "game.dany.deselect": "забрать эту карту",
+  "game.dany.claim": "заявить значение",
+  "game.dany.pass": "пропустить ход",
+  "game.dany.inspect": "проверить заявку",
+  "game.dany.hold": "оставить в силе",
+
+  "game.dany.table_title": "Стол",
+  "game.dany.history_title": "Что только что произошло",
+  "game.dany.hand_title": "Ваша рука",
+  "game.dany.you": "вы",
+  "game.dany.out": "выбыл",
+  "game.dany.chip_insight": "проницательность {value}",
+  "game.dany.chip_reputation": "репутация {value}",
+  "game.dany.chip_cards": "Карт: {count}",
+  "game.dany.oracle_line": "Раунд {round}: в заявке нужно назвать минимум {oracle}.",
+  "game.dany.claim_banner": "{player} выложил карты ({cards}) и заявляет, что их сумма — {value}.",
+  "game.dany.score_line": "{player}: проницательность {insight}, репутация {reputation}",
+
+  "game.dany.status_select": "{player} должен выложить от одной до трёх карт и заявить минимум {oracle} (раунд {round}).",
+  "game.dany.status_inspect": "{player} заявляет {value} — выложены карты ({cards}); {responder} может проверить заявку или оставить её в силе.",
+  "game.dany.finished": "Партия окончена: {winner}",
+
+  "game.dany.claim_prompt": "Заявите сумму выложенных карт",
+  "game.dany.claim_hint": "Сначала нужно выложить от одной до трёх карт. Блефовать разрешено — уличённая ложь стоит репутации, напрасное сомнение тоже.",
+  "game.dany.laid_line": "Выложено {count} из 3 карт",
+  "game.dany.select_first": "Чтобы сделать заявку, выложите хотя бы одну карту.",
+  "game.dany.claim_button": "Заявить {value}",
+  "game.dany.inspect_prompt": "Проверить заявку — или оставить её в силе?",
+  "game.dany.inspect_button": "Проверить заявку",
+  "game.dany.hold_button": "Оставить в силе",
+  "game.dany.fold_prompt": "У вас больше нет карт — пропустите ход и ждите, пока доиграет стол.",
+  "game.dany.fold_button": "Пропустить",
+
+  "game.dany.log_start": "DANY начинается с {count} игроками: каждому по {per_player} карт, ещё {sealed} в закрытую.",
+  "game.dany.log_lay": "{player} выкладывает карты ({count}).",
+  "game.dany.log_claim": "{player} заявляет, что выложенные карты ({cards}) стоят {value}.",
+  "game.dany.log_inspected_true": "{inspector} проверяет {player}: карты ({cards}) действительно дают в сумме {value}. Сомнение стоит очка репутации.",
+  "game.dany.log_inspected_false": "{inspector} уличает {player}: карты ({cards}) дают в сумме {total}, а не {value}.",
+  "game.dany.log_unchallenged": "Никто не сомневается в {player}: карты ({cards}) уходят со стола закрытыми.",
+  "game.dany.log_fold": "У {player} не осталось карт, и он пропускает ход.",
+  "game.dany.log_eliminated": "{player} теряет последнюю репутацию и покидает стол.",
+  "game.dany.log_new_round": "Оракул перерастает три карты — раунд {round} начинается с нового отсчёта.",
+
+  "game.dany.reason_last_standing": "Все остальные места выбыли.",
+  "game.dany.reason_hands_empty": "Руки пусты; исход стола решает проницательность.",
+  "game.dany.reason_turn_limit": "Стол достиг предела ходов; исход стола решает проницательность.",
+
+  "game.dany.error.illegal_action": "Сейчас это недопустимое действие в DANY."
+}

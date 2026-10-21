@@ -1,0 +1,67 @@
+{
+  "game.dany.name": "DANY",
+  "game.dany.desc": "Ein Bluff-Kartenspiel voller kühner Ansagen: Lege ein bis drei Karten verdeckt ab und schwöre, dass sie zusammen deine Zahl ergeben — dann entscheidet der Tisch, ob man dir misstraut. Ertappte Lügen kosten Ansehen, unnötige Zweifel ebenfalls.",
+  "game.dany.rule.1": "Each turn, play one to three cards face down and claim a total. The next player may doubt the claim or raise it.",
+  "game.dany.rule.2": "A caught bluff or a wrong doubt costs reputation. Lose all reputation and you are out; the last player wins.",
+
+  "game.dany.phase.select": "Kartenlegen",
+  "game.dany.phase.inspect": "Prüfung",
+  "game.dany.phase.finished": "Partie beendet",
+
+  "game.dany.suit.ember": "Glut",
+  "game.dany.suit.tide": "Flut",
+  "game.dany.suit.grove": "Hain",
+  "game.dany.suit.dusk": "Dämmerung",
+  "game.dany.suit.frost": "Frost",
+  "game.dany.card": "{suit} {value}",
+
+  "game.dany.select": "diese Karte ablegen",
+  "game.dany.deselect": "diese Karte zurücknehmen",
+  "game.dany.claim": "einen Wert ansagen",
+  "game.dany.pass": "aussetzen",
+  "game.dany.inspect": "die Ansage prüfen",
+  "game.dany.hold": "gelten lassen",
+
+  "game.dany.table_title": "Der Tisch",
+  "game.dany.history_title": "Was gerade passiert ist",
+  "game.dany.hand_title": "Deine Hand",
+  "game.dany.you": "du",
+  "game.dany.out": "ausgeschieden",
+  "game.dany.chip_insight": "Einsicht {value}",
+  "game.dany.chip_reputation": "Ansehen {value}",
+  "game.dany.chip_cards": "{count} Karten",
+  "game.dany.oracle_line": "Runde {round}: Ansagen müssen mindestens {oracle} nennen.",
+  "game.dany.claim_banner": "{player} hat {cards} Karte(n) abgelegt und sagt, sie ergeben zusammen {value}.",
+  "game.dany.score_line": "{player}: Einsicht {insight}, Ansehen {reputation}",
+
+  "game.dany.status_select": "{player} muss ein bis drei Karten ablegen und mindestens {oracle} ansagen (Runde {round}).",
+  "game.dany.status_inspect": "{player} sagt {value} mit {cards} Karte(n) an — {responder} kann die Ansage prüfen oder gelten lassen.",
+  "game.dany.finished": "Partie beendet: {winner}",
+
+  "game.dany.claim_prompt": "Sag die Summe deiner abgelegten Karten an",
+  "game.dany.claim_hint": "Zuerst müssen ein bis drei Karten abgelegt werden. Bluffen ist erlaubt — eine ertappte Lüge kostet Ansehen, ein unnötiger Zweifel ebenso.",
+  "game.dany.laid_line": "{count} von 3 Karten abgelegt",
+  "game.dany.select_first": "Lege mindestens eine Karte ab, um etwas anzusagen.",
+  "game.dany.claim_button": "{value} ansagen",
+  "game.dany.inspect_prompt": "Die Ansage prüfen — oder gelten lassen?",
+  "game.dany.inspect_button": "Ansage prüfen",
+  "game.dany.hold_button": "Gelten lassen",
+  "game.dany.fold_prompt": "Deine Hand ist leer — setze aus und warte auf den Tisch.",
+  "game.dany.fold_button": "Aussetzen",
+
+  "game.dany.log_start": "DANY beginnt mit {count} Spielern: {per_player} Karten für jeden, {sealed} beiseitegelegt.",
+  "game.dany.log_lay": "{player} legt {count} Karte(n) ab.",
+  "game.dany.log_claim": "{player} sagt, die abgelegten {cards} Karte(n) seien {value} wert.",
+  "game.dany.log_inspected_true": "{inspector} prüft {player}: Die Karten ({cards}) ergeben tatsächlich {value}. Der Zweifel kostet Ansehen.",
+  "game.dany.log_inspected_false": "{inspector} ertappt {player}: Die Karten ({cards}) ergeben {total}, nicht {value}.",
+  "game.dany.log_unchallenged": "Niemand bezweifelt {player}; die {cards} Karte(n) werden ungesehen vom Tisch genommen.",
+  "game.dany.log_fold": "{player} hat keine Karten mehr und setzt aus.",
+  "game.dany.log_eliminated": "{player} verliert den letzten Rest Ansehen und verlässt den Tisch.",
+  "game.dany.log_new_round": "Das Orakel wächst über drei Karten hinaus — Runde {round} beginnt mit neuer Zählung.",
+
+  "game.dany.reason_last_standing": "Alle anderen Plätze sind ausgeschieden.",
+  "game.dany.reason_hands_empty": "Die Hände sind leer; am Tisch entscheidet die Einsicht.",
+  "game.dany.reason_turn_limit": "Der Tisch hat das Zuglimit erreicht; am Tisch entscheidet die Einsicht.",
+
+  "game.dany.error.illegal_action": "Das ist gerade keine gültige DANY-Aktion."
+}

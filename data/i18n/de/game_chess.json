@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Schach",
+  "game.chess.desc": "Das klassische Spiel der Könige: Figuren entwickeln, das Zentrum beherrschen und den gegnerischen König mattsetzen. Mit vollständigen Regeln inklusive Rochade, En passant, Umwandlung und allen Remisregeln.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "Eröffnung",
+  "game.chess.phase.middlegame": "Mittelspiel",
+  "game.chess.phase.endgame": "Endspiel",
+  "game.chess.phase.finished": "Partie beendet",
+
+  "game.chess.option.castling": "Rochade erlauben",
+  "game.chess.option.castling_hint": "Wenn deaktiviert, darf der König nie zwei Felder ziehen und der Turm nie über ihn springen.",
+  "game.chess.option.en_passant": "En passant erlauben",
+  "game.chess.option.en_passant_hint": "Ein Bauer, der gerade zwei Felder vorgerückt ist, kann geschlagen werden, als wäre er nur eines gezogen.",
+  "game.chess.option.fifty_move": "Fünfzig-Züge-Regel",
+  "game.chess.option.fifty_move_hint": "Fünfzig Züge ohne Schlagzug und ohne Bauernzug beenden die Partie als Unentschieden.",
+
+  "game.chess.colour_white": "Weiß",
+  "game.chess.colour_black": "Schwarz",
+  "game.chess.turn_line": "{player} spielt {colour}",
+  "game.chess.check_white": "Weiß steht im Schach.",
+  "game.chess.check_black": "Schwarz steht im Schach.",
+  "game.chess.move_number": "Zug {number}",
+  "game.chess.hint_top": "Vorschlag: {move}",
+  "game.chess.promotion": "Umwandlungsfigur wählen:",
+  "game.chess.captured": "Geschlagen:",
+  "game.chess.selected": "Ausgewählt: {square} ({piece})",
+  "game.chess.suggest": "Zug vorschlagen",
+  "game.chess.notation_hint": "Eine Figur anklicken, um ihre legalen Züge zu sehen, dann ein hervorgehobenes Feld anklicken. Schlagzüge sind rot markiert.",
+
+  "game.chess.log_start": "{white} (Weiß) spielt gegen {black} (Schwarz).",
+  "game.chess.log_move": "{player} spielt {move}.",
+
+  "game.chess.reason_checkmate": "Schachmatt.",
+  "game.chess.reason_stalemate": "Patt: kein legaler Zug und kein Schach.",
+  "game.chess.reason_insufficient_material": "Unentschieden: unzureichendes Material, um das Matt zu erzwingen.",
+  "game.chess.reason_fifty_move": "Unentschieden durch die Fünfzig-Züge-Regel.",
+  "game.chess.reason_repetition": "Unentschieden durch dreifache Stellungswiederholung.",
+
+  "game.chess.error.unknown_action": "Diese Aktion gehört nicht zum Schach.",
+  "game.chess.error.illegal_move": "Dieser Zug ist in dieser Stellung nicht legal."
+}

@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "行动代号",
+  "game.codenames.desc": "两支队伍在 5×5 的词格上抢先找出己方特工：队长给出一个词的提示和一个数字，队员负责猜——而猜错一个词就会碰到刺客。",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "给提示",
+  "game.codenames.phase.guess": "猜词",
+  "game.codenames.phase.finished": "对局结束",
+
+  "game.codenames.option.starting_team": "起始队伍",
+  "game.codenames.option.starting_team_hint": "起始队伍需要找出九名特工，另一方八名。默认由红队先手。",
+  "game.codenames.option.team_red": "红队",
+  "game.codenames.option.team_blue": "蓝队",
+
+  "game.codenames.team_red": "红队",
+  "game.codenames.team_blue": "蓝队",
+  "game.codenames.card_neutral": "路人",
+  "game.codenames.card_assassin": "刺客",
+  "game.codenames.role_spymaster": "队长",
+  "game.codenames.role_operative": "队员",
+
+  "game.codenames.your_role": "你扮演{team}的{role}。",
+  "game.codenames.turn_clue": "{player} 必须为{team}给出提示。",
+  "game.codenames.turn_guess": "{player} 为{team}猜词 — {clue}，{left}。",
+  "game.codenames.cue_line": "提示“{word}”：{number} 个",
+  "game.codenames.guesses_left.one": "本轮还可猜 {count} 次",
+  "game.codenames.guesses_left.other": "本轮还可猜 {count} 次",
+  "game.codenames.agents_left": "剩余待揭示 — 红队：{red}，蓝队：{blue}",
+  "game.codenames.key_visible": "你的钥匙卡已标在棋盘上：请对其他人保密。",
+  "game.codenames.key_hidden": "未揭示的词保持空白，直到有人猜中。",
+  "game.codenames.cue_prompt": "选择一个提示词和一个数字",
+  "game.codenames.board_hint": "点击未揭示的词进行猜测，或点击停止以结束本回合。",
+  "game.codenames.finished": "对局结束 — {winner}",
+  "game.codenames.stop": "停止猜词",
+
+  "game.codenames.log_start": "队长是 {red_spy}（红队）和 {blue_spy}（蓝队）。",
+  "game.codenames.log_clue": "{player} 为{team}给出提示“{word}”：{number} 个。",
+  "game.codenames.log_agent": "{player} 揭示“{card}”，是{team}的特工。",
+  "game.codenames.log_bystander": "{player} 揭示“{card}”，是路人。",
+  "game.codenames.log_assassin": "{player} 揭示“{card}”——是刺客！",
+  "game.codenames.log_stop": "{player} 停止为{team}猜词。",
+
+  "game.codenames.reason_all_agents": "有一支队伍找齐了自己的全部特工。",
+  "game.codenames.reason_assassin": "刺客已被揭示。",
+  "game.codenames.reason_turn_limit": "已达到提示数量上限，因此揭示特工更多的一方获胜。",
+  "game.codenames.reason_abandoned": "有一支队伍离开了牌桌。",
+
+  "game.codenames.error.illegal_action": "现在这不是《行动代号》中的合法操作。"
+}

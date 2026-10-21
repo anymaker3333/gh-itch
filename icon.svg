@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1410"/>
+      <stop offset="100%" stop-color="#0d1118"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#ff8a1f" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#ff8a1f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe0a3"/>
+      <stop offset="100%" stop-color="#ffb64d"/>
+    </linearGradient>
+    <linearGradient id="crownLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="crownRight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="pavilionLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="pavilionMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="pavilionDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <linearGradient id="blueX" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="orangeBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <pattern id="damascusOrange" patternUnits="userSpaceOnUse" width="24" height="24">
+      <rect width="24" height="24" fill="url(#orangeBase)"/>
+      <path d="M0 6 Q6 2 12 6 T24 6" fill="none" stroke="#7c2d12" stroke-width="1.2" opacity="0.5"/>
+      <path d="M0 12 Q6 8 12 12 T24 12" fill="none" stroke="#fde68a" stroke-width="1" opacity="0.45"/>
+      <path d="M0 18 Q6 14 12 18 T24 18" fill="none" stroke="#9a3412" stroke-width="1.2" opacity="0.5"/>
+      <path d="M0 4 Q6 0 12 4 T24 4" fill="none" stroke="#fdba74" stroke-width="0.8" opacity="0.35"/>
+    </pattern>
+    <pattern id="woodBlue" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="url(#blueX)"/>
+      <line x1="2" y1="0" x2="2" y2="8" stroke="#1e3a8a" stroke-width="1" opacity="0.55"/>
+      <line x1="5" y1="0" x2="5" y2="8" stroke="#93c5fd" stroke-width="0.6" opacity="0.45"/>
+      <line x1="7" y1="0" x2="7" y2="8" stroke="#1e40af" stroke-width="0.8" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+
+  <g transform="translate(64,64) scale(1.18) translate(-64,-64)">
+  <g stroke="#7c2d12" stroke-width="1.5" stroke-linejoin="round">
+    <!-- crown: shoulder facets flanking the bright table -->
+    <polygon points="64,20 46,28 34,52 22,52" fill="url(#crownLeft)"/>
+    <polygon points="64,20 82,28 94,52 106,52" fill="url(#crownRight)"/>
+    <polygon points="46,28 82,28 94,52 34,52" fill="url(#table)"/>
+
+    <!-- pavilion: four tapering facets down to the point -->
+    <polygon points="22,52 64,112 34,52" fill="url(#pavilionDark)"/>
+    <polygon points="34,52 64,112 64,52" fill="url(#pavilionLight)"/>
+    <polygon points="64,52 64,112 94,52" fill="url(#pavilionMid)"/>
+    <polygon points="94,52 64,112 106,52" fill="url(#pavilionDark)"/>
+  </g>
+
+  <!-- girdle and crown edges -->
+  <g fill="none" stroke="#fb923c" stroke-width="1.5" stroke-linecap="round">
+    <path d="M22 52 H106"/>
+    <path d="M46 28 L34 52 M82 28 L94 52"/>
+    <path d="M64 52 V112"/>
+  </g>
+
+  <!-- glints keep the gem readable at small icon sizes -->
+  <path d="M42 38 L50 35 L48 43 Z" fill="#fff7e8" opacity="0.78"/>
+  <path d="M83 33 L86 40 L79 38 Z" fill="#fff7e8" opacity="0.5"/>
+  <path d="M55 74 L60 72 L58 79 Z" fill="#fde68a" opacity="0.34"/>
+
+  <!-- brand monogram, converted to outlines so every SVG renderer shows it -->
+  <path fill="#4a1605" d="M62.282 47.862Q60.806 48.58 59.217 48.938Q57.627 49.297 55.935 49.297Q52.111 49.297 49.875 47.159Q47.64 45.021 47.64 41.361Q47.64 37.659 49.916 35.537Q52.193 33.414 56.151 33.414Q57.678 33.414 59.078 33.701Q60.478 33.988 61.719 34.552V37.721Q60.437 36.993 59.17 36.634Q57.904 36.275 56.633 36.275Q54.274 36.275 52.998 37.593Q51.721 38.91 51.721 41.361Q51.721 43.791 52.951 45.114Q54.182 46.437 56.448 46.437Q57.063 46.437 57.591 46.36Q58.119 46.283 58.54 46.119V43.145H56.13V40.5H62.282ZM65.759 33.691H69.706V39.525H75.531V33.691H79.478V49H75.531V42.509H69.706V49H65.759Z"/>
+
+  <!-- blue gradient X in the middle of the gem -->
+  <text x="64" y="86" text-anchor="middle" dominant-baseline="middle"
+        font-family="Times New Roman, Times, serif" font-size="46" font-weight="bold"
+        fill="url(#woodBlue)">X</text>
+
+</g>
+</svg>

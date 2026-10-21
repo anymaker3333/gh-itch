@@ -1,0 +1,50 @@
+{
+  "game.codenames.name": "Codenames",
+  "game.codenames.desc": "İki komanda 5×5 söz lövhəsində gizli agentlərini üzə çıxarmaq üçün yarışır: casus rəisi bir sözdən ibarət işarə və bir rəqəm verir, agentlər təxmin edir — bir səhv söz isə qatildir.",
+  "game.codenames.rule.1": "The spymaster gives a one-word clue and a number. Teammates guess that many words belonging to their colour.",
+  "game.codenames.rule.2": "Avoid the other team's words and the assassin. Reveal all your agents first to win.",
+
+  "game.codenames.phase.clue": "işarə",
+  "game.codenames.phase.guess": "təxmin",
+  "game.codenames.phase.finished": "oyun bitdi",
+
+  "game.codenames.option.starting_team": "Başlayan komanda",
+  "game.codenames.option.starting_team_hint": "Başlayan komanda doqquz agent tapmalıdır, digər komanda isə səkkiz. Standart olaraq qırmızılar başlayır.",
+  "game.codenames.option.team_red": "Qırmızı",
+  "game.codenames.option.team_blue": "Mavi",
+
+  "game.codenames.team_red": "qırmızı komanda",
+  "game.codenames.team_blue": "mavi komanda",
+  "game.codenames.card_neutral": "kənar şəxs",
+  "game.codenames.card_assassin": "qatil",
+  "game.codenames.role_spymaster": "casus rəisi",
+  "game.codenames.role_operative": "agent",
+
+  "game.codenames.your_role": "Siz {team} üçün {role} rolunu oynayırsınız.",
+  "game.codenames.turn_clue": "{player} {team} üçün işarə verməlidir.",
+  "game.codenames.turn_guess": "{player} {team} üçün təxmin edir — {clue}, {left}.",
+  "game.codenames.cue_line": "“{word}” ({number})",
+  "game.codenames.guesses_left.one": "{count} təxmin qaldı bu növbədə",
+  "game.codenames.guesses_left.other": "{count} təxmin qaldı bu növbədə",
+  "game.codenames.agents_left": "Açılmamış kartlar — qırmızı: {red}, mavi: {blue}",
+  "game.codenames.key_visible": "Açar kartınız lövhədə göstərilir: onu başqalarına göstərməyin.",
+  "game.codenames.key_hidden": "Açılmamış sözlər kimsə onları təxmin edənə qədər boş qalır.",
+  "game.codenames.cue_prompt": "İşarə sözü və rəqəm seçin",
+  "game.codenames.board_hint": "Təxmin etmək üçün açılmamış sözə klikləyin və ya növbəni bitirmək üçün dayanın.",
+  "game.codenames.finished": "Partiya bitdi — {winner}",
+  "game.codenames.stop": "Təxmini dayandır",
+
+  "game.codenames.log_start": "Casus rəisləri: {red_spy} (qırmızı) və {blue_spy} (mavi).",
+  "game.codenames.log_clue": "{player} {team} üçün “{word}” işarəsini və {number} rəqəmini verir.",
+  "game.codenames.log_agent": "{player} “{card}” kartını açır — {team} agenti.",
+  "game.codenames.log_bystander": "{player} “{card}” kartını açır — kənar şəxs.",
+  "game.codenames.log_assassin": "{player} “{card}” kartını açır — qatil!",
+  "game.codenames.log_stop": "{player} {team} üçün təxmini dayandırır.",
+
+  "game.codenames.reason_all_agents": "Komandalardan biri bütün agentlərini tapıb.",
+  "game.codenames.reason_assassin": "Qatil açıldı.",
+  "game.codenames.reason_turn_limit": "İşarə limitinə çatıldı, ona görə də daha çox agent açan komanda qalib gəlir.",
+  "game.codenames.reason_abandoned": "Komandalardan biri masanı tərk etdi.",
+
+  "game.codenames.error.illegal_action": "Bu əməliyyat hazırda Codenames-də qanuni deyil."
+}

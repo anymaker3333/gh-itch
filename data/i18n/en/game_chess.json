@@ -1,0 +1,43 @@
+{
+  "game.chess.name": "Chess",
+  "game.chess.desc": "The classic game of kings: develop your pieces, control the centre and mate the enemy king. Full rules including castling, en passant, promotion and every drawing rule.",
+  "game.chess.rule.1": "White moves first. Each piece has its own movement pattern; pawns promote on the last rank and the king may castle once with a rook.",
+  "game.chess.rule.2": "Win by checkmating the enemy king. Stalemate, insufficient material, threefold repetition and the fifty-move rule are draws.",
+
+  "game.chess.phase.opening": "opening",
+  "game.chess.phase.middlegame": "middlegame",
+  "game.chess.phase.endgame": "endgame",
+  "game.chess.phase.finished": "game over",
+
+  "game.chess.option.castling": "Allow castling",
+  "game.chess.option.castling_hint": "When off, the king may never move two squares and the rook never jumps over it.",
+  "game.chess.option.en_passant": "Allow en passant",
+  "game.chess.option.en_passant_hint": "A pawn that has just advanced two squares can be captured as if it had moved one.",
+  "game.chess.option.fifty_move": "Fifty-move rule",
+  "game.chess.option.fifty_move_hint": "Fifty moves without a capture or a pawn move end the game in a draw.",
+
+  "game.chess.colour_white": "White",
+  "game.chess.colour_black": "Black",
+  "game.chess.turn_line": "{player} plays {colour}",
+  "game.chess.check_white": "White is in check.",
+  "game.chess.check_black": "Black is in check.",
+  "game.chess.move_number": "Move {number}",
+  "game.chess.hint_top": "Suggestion: {move}",
+  "game.chess.promotion": "Choose the promotion piece:",
+  "game.chess.captured": "Captured:",
+  "game.chess.selected": "Selected {square} ({piece})",
+  "game.chess.suggest": "Suggest a move",
+  "game.chess.notation_hint": "Click a piece to see its legal moves, then click a highlighted square. Captures are marked red.",
+
+  "game.chess.log_start": "{white} (White) plays {black} (Black).",
+  "game.chess.log_move": "{player} plays {move}.",
+
+  "game.chess.reason_checkmate": "Checkmate.",
+  "game.chess.reason_stalemate": "Stalemate: no legal move and no check.",
+  "game.chess.reason_insufficient_material": "Draw: not enough material to force mate.",
+  "game.chess.reason_fifty_move": "Draw by the fifty-move rule.",
+  "game.chess.reason_repetition": "Draw by threefold repetition.",
+
+  "game.chess.error.unknown_action": "This action does not belong to chess.",
+  "game.chess.error.illegal_move": "That move is not legal in this position."
+}

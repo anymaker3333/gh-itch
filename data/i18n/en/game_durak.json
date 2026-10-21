@@ -1,0 +1,52 @@
+{
+  "game.durak.name": "Durak",
+  "game.durak.desc": "The classic attack-and-defend card game: beat every card aimed at you or pick the table up, and make sure somebody else is left holding cards at the end.",
+  "game.durak.rule.1": "The attacker plays cards and the defender beats each one with a higher card of the same suit or a trump.",
+  "game.durak.rule.2": "The defender may take all cards instead. The last player holding cards is the durak.",
+
+  "game.durak.phase.attack": "attacking",
+  "game.durak.phase.defense": "defending",
+  "game.durak.phase.finished": "game over",
+
+  "game.durak.option.hand_size": "Cards in hand",
+  "game.durak.option.hand_size_hint": "How many cards each player is dealt and draws back up to after every round.",
+
+  "game.durak.action_take": "Take the cards",
+  "game.durak.action_pass": "Done attacking",
+
+  "game.durak.trump": "Trump: {suit}",
+  "game.durak.deck_count": "Deck: {count}",
+  "game.durak.discard_count": "Beaten: {count}",
+  "game.durak.round_line": "Round {round}",
+  "game.durak.status_attack": "{player} attacks: add a card of a rank already on the table, or finish the attack.",
+  "game.durak.status_defense": "{defender} must beat the attack of {attacker} or take the cards.",
+  "game.durak.table_label": "The table",
+  "game.durak.table_empty": "No cards on the table yet.",
+  "game.durak.uncovered": "not beaten",
+  "game.durak.hand_label": "Your hand",
+  "game.durak.hand_empty": "No cards in hand.",
+  "game.durak.players_label": "Players",
+  "game.durak.hint": "Click a card to attack or to beat the attack. A card is beaten by a higher card of the same suit or by a trump.",
+  "game.durak.role_attacker": "attacks",
+  "game.durak.role_defender": "defends",
+  "game.durak.role_out": "out",
+  "game.durak.role_fool": "fool",
+  "game.durak.cards.one": "{count} card",
+  "game.durak.cards.other": "{count} cards",
+
+  "game.durak.log_start": "{player} opens the game; the trump card is {card}.",
+  "game.durak.log_attack": "{player} attacks with {card}.",
+  "game.durak.log_defend": "{player} beats {attack} with {card}.",
+  "game.durak.log_take": "{player} picks the cards up.",
+  "game.durak.log_clear": "{player} takes over the attack.",
+  "game.durak.log_out": "{player} is out of cards.",
+  "game.durak.log_fool": "{player} is left holding cards and is the fool.",
+  "game.durak.log_round": "Round {round}: {player} attacks {defender}.",
+
+  "game.durak.reason.fool": "The fool is left holding cards.",
+  "game.durak.reason.draw": "Draw: the last cards left play together.",
+  "game.durak.reason.stalemate": "Draw: with the deck empty both players keep picking the cards up.",
+
+  "game.durak.error.unknown_action": "That action does not belong to durak.",
+  "game.durak.error.illegal_action": "That card cannot be played now."
+}
