@@ -27,7 +27,7 @@ signal message_received(peer_id: int, message: Dictionary)
 signal transport_error(context: String, detail: String)
 signal stats_changed()
 
-enum Transport { NONE = 0, STEAM = 1, LOCAL_TEST = 2 }
+enum Transport { NONE = 0, STEAM = 1, LOCAL_TEST = 2, WEBSOCKET = 3 }
 enum Link { OFFLINE = 0, STEAM_READY = 1, LOBBY_JOINED = 2, CONNECTING = 3, CONNECTED = 4, MATCH_RUNNING = 5, DISCONNECTING = 6 }
 enum Role { NONE = 0, HOST = 1, CLIENT = 2 }
 
@@ -120,9 +120,10 @@ func transport_name() -> String:
 			return "steam"
 		Transport.LOCAL_TEST:
 			return "local_test"
+		Transport.WEBSOCKET:
+			return "websocket"
 		_:
 			return "none"
-
 
 func link_detail() -> String:
 	return _link_detail
@@ -249,6 +250,45 @@ func join_local_test(address: String = "127.0.0.1", port: int = 47000) -> bool:
 	transport = Transport.LOCAL_TEST
 	_set_link(Link.CONNECTING, "%s:%d" % [address, port])
 	_assign_peer(enet, Role.CLIENT)
+	return true
+
+
+# -------------------------------------------------------- websocket transport
+## Browser-capable transport (WebSocket). Works in HTML5 builds and on desktop.
+## Requires a reachable URL for clients; hosting requires a routable address (a
+## browser client cannot listen, so desktop builds usually host).
+func host_websocket(port: int = 9000) -> bool:
+	if link == Link.MATCH_RUNNING or link == Link.CONNECTED:
+		transport_error.emit("ws_host", Loc.t("net.error_already_connected"))
+		return false
+	var ws := WebSocketMultiplayerPeer.new()
+	var err := ws.create_server(clampi(port, 1024, 65535))
+	if err != OK:
+		transport_error.emit("ws_host", Loc.t("net.error_peer_setup_failed", {"code": err}))
+		Log.error("Net: WebSocket server failed", {"error": err})
+		return false
+	transport = Transport.WEBSOCKET
+	_assign_peer(ws, Role.HOST)
+	_set_link(Link.CONNECTED, "WebSocket port %d" % port)
+	return true
+
+
+func join_websocket(url: String) -> bool:
+	if url.strip_edges().is_empty():
+		transport_error.emit("ws_join", Loc.t("net.error_peer_setup_failed", {"code": -1}))
+		return false
+	if link == Link.MATCH_RUNNING or link == Link.CONNECTED:
+		transport_error.emit("ws_join", Loc.t("net.error_already_connected"))
+		return false
+	var ws := WebSocketMultiplayerPeer.new()
+	var err := ws.create_client(url.strip_edges())
+	if err != OK:
+		transport_error.emit("ws_join", Loc.t("net.error_peer_setup_failed", {"code": err}))
+		Log.error("Net: WebSocket client failed", {"error": err})
+		return false
+	transport = Transport.WEBSOCKET
+	_set_link(Link.CONNECTING, url.strip_edges())
+	_assign_peer(ws, Role.CLIENT)
 	return true
 
 

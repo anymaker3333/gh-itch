@@ -284,6 +284,29 @@ func _build_dev() -> void:
 	))
 	_dev_panel.add_child(buttons)
 	_dev_panel.add_child(UI.label(Loc.t("online.test_warning"), "Warning"))
+	var ws_row := UI.row(10)
+	ws_row.add_child(UI.label("WS URL", "Small"))
+	var ws_url_field := UI.line_edit("ws://127.0.0.1:9000", "ws://127.0.0.1:9000")
+	ws_url_field.custom_minimum_size = Vector2(260, 0)
+	ws_row.add_child(ws_url_field)
+	_dev_panel.add_child(ws_row)
+	var ws_buttons := UI.row(10)
+	ws_buttons.add_child(UI.button("Host WS", "Button", func() -> void:
+		if Net.host_websocket(9000):
+			Net.notify_lobby_joined(0)
+			Session.lobby = {"lobby_id": 0, "visibility": "private", "max_players": 8, "game_id": _host_game_id, "mode": "websocket", "expansions": []}
+			Nav.go(Nav.ROUTE_LOBBY, {"test_transport": true})
+		else:
+			Notify.error(Loc.t("net.error_peer_setup_failed", {"code": -1}))
+	))
+	ws_buttons.add_child(UI.button("Join WS", "Button", func() -> void:
+		if Net.join_websocket(ws_url_field.text):
+			Session.lobby = {"lobby_id": 0, "visibility": "private", "max_players": 8, "game_id": "", "mode": "websocket", "expansions": []}
+			Nav.go(Nav.ROUTE_LOBBY, {"test_transport": true})
+		else:
+			Notify.error(Loc.t("net.error_peer_setup_failed", {"code": -1}))
+		))
+	_dev_panel.add_child(ws_buttons)
 
 
 # ------------------------------------------------------------------ actions
