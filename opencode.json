@@ -18,10 +18,7 @@
           "/home/xilivir/.bun/bin/bun",
           "run",
           "/home/xilivir/.local/share/opencode/mcp/itch/index.ts"
-        ],
-        "environment": {
-          "ITCH_API_KEY": "{env:ITCH_API_KEY}"
-        }
+        ]
       }
     }
   }
