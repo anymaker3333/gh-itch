@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Game Hub"
-config/description="Desktop board-game platform with local and Steam online play."
+config/description="Desktop and web board-game platform with local and online play (itch.io build)."
 config/version="0.1.0"
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
@@ -35,10 +35,6 @@ Nav="*res://scripts/autoload/nav.gd"
 
 window/size/viewport_width=1600
 window/size/viewport_height=900
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/godotsteam/plugin.cfg")
 
 [filesystem]
 

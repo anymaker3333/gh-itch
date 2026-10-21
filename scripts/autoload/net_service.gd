@@ -223,7 +223,7 @@ func _create_steam_peer() -> MultiplayerPeer:
 ## Development/test transport. Used by automated multiplayer tests and for LAN
 ## debugging; it is explicitly *not* Steam networking.
 func host_local_test(port: int = 47000, max_clients: int = 8) -> bool:
-	if not bool(Prefs.get_value("steam/allow_local_test_transport", true)):
+	if not bool(Prefs.get_value("net/allow_local_test_transport", true)):
 		transport_error.emit("local_host", Loc.t("net.error_local_disabled"))
 		return false
 	var enet := ENetMultiplayerPeer.new()
@@ -238,7 +238,7 @@ func host_local_test(port: int = 47000, max_clients: int = 8) -> bool:
 
 
 func join_local_test(address: String = "127.0.0.1", port: int = 47000) -> bool:
-	if not bool(Prefs.get_value("steam/allow_local_test_transport", true)):
+	if not bool(Prefs.get_value("net/allow_local_test_transport", true)):
 		transport_error.emit("local_join", Loc.t("net.error_local_disabled"))
 		return false
 	var enet := ENetMultiplayerPeer.new()

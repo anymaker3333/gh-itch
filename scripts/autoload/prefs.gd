@@ -39,10 +39,7 @@ const DEFAULTS: Dictionary = {
 	"library/recent": [],
 	"star_realms/selected_sets": ["sr_core"],
 	"star_realms/expansions_enabled": false,
-	"steam/app_id": 480,
-	"steam/enabled": true,
-	"steam/use_steam_transport": true,
-	"steam/allow_local_test_transport": true,
+	"net/allow_local_test_transport": true,
 	"net/protocol_version": 1,
 }
 
@@ -312,8 +309,6 @@ func _sanitize(path: String, value: Variant) -> Variant:
 			if not sets.has("sr_core"):
 				sets.push_front("sr_core")
 			return sets
-		"steam/app_id":
-			return clampi(int(value), 0, 0x7FFFFFFF)
 		"profile/display_name":
 			return String(value).substr(0, 32)
 		"appearance/theme_id":

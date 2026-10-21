@@ -45,7 +45,6 @@ func _rebuild() -> void:
 	]))
 	column.add_child(_panel(Loc.t("about.panel_tech"), [
 		Loc.t("about.tech_engine", {"version": str(Engine.get_version_info().get("string", "?"))}),
-		Loc.t("about.tech_steam"),
 		Loc.t("about.tech_fonts"),
 		Loc.t("about.tech_art"),
 	]))

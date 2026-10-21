@@ -79,23 +79,11 @@ var _callbacks_enabled: bool = false
 
 
 func _ready() -> void:
-	gateway = SteamGateway.new()
-	if OS.get_environment("GAMEHUB_DISABLE_STEAM") == "1":
-		# Automated headless runs disable Steam: the Steamworks client can abort
-		# the engine process during shutdown when many short-lived headless
-		# processes initialise and tear it down in sequence. The real game and
-		# manual Steam checks never set this variable.
-		_set_state(State.DISABLED, "Steam disabled for this automated run.")
-		return
-	if not bool(Prefs.get_value("steam/enabled", true)):
-		_set_state(State.DISABLED, "Steam integration disabled in settings.")
-		return
-	if not gateway.available:
-		_set_state(State.UNAVAILABLE, gateway.unavailable_reason())
-		Log.warn("SteamSvc: Steam unavailable", {"reason": gateway.unavailable_reason()})
-		return
-	_configure_app_id()
-	initialise()
+	# itch.io build: Steamworks is not available on this platform. The service
+	# stays in DISABLED state so the rest of the application (and the online
+	# screen, which falls back to the local ENet test transport) keeps working.
+	_set_state(State.DISABLED, "Steam integration is not available in this build.")
+	return
 
 
 func _process(_delta: float) -> void:

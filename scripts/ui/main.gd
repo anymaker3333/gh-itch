@@ -39,7 +39,6 @@ func _report_environment() -> void:
 		"games": Catalog.count(),
 		"locale": Loc.current_locale,
 		"locales": Loc.locale_codes().size(),
-		"steam": SteamSvc.state_name(),
 	}
 	Log.info("Main: services ready", report)
 	if Catalog.count() == 0:

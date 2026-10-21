@@ -94,13 +94,6 @@ func _build_summary() -> void:
 	_summary.add_child(UI.kv_row(Loc.t("diagnostics.errors"), str(Log.error_count()), Palette.DANGER if Log.error_count() > 0 else Palette.POSITIVE))
 	_summary.add_child(UI.kv_row(Loc.t("diagnostics.warnings"), str(Log.warn_count()), Palette.WARNING if Log.warn_count() > 0 else Palette.POSITIVE))
 	_summary.add_child(UI.divider())
-	_summary.add_child(UI.section_header(Loc.t("diagnostics.steam"), SteamSvc.status_text()))
-	_summary.add_child(UI.kv_row(Loc.t("diagnostics.steam_state"), SteamSvc.state_name()))
-	_summary.add_child(UI.kv_row(Loc.t("diagnostics.steam_app_id"), str(SteamSvc.app_id)))
-	_summary.add_child(UI.kv_row(Loc.t("diagnostics.steam_steam_id"), SteamSvc.steam_id_string() if SteamSvc.steam_id != 0 else Loc.t("common.none")))
-	_summary.add_child(UI.kv_row(Loc.t("diagnostics.steam_relay"), Loc.t("common.yes") if SteamSvc.relay_available else Loc.t("common.no")))
-	_summary.add_child(UI.kv_row(Loc.t("diagnostics.steam_detail"), SteamSvc.state_detail))
-	_summary.add_child(UI.divider())
 	_summary.add_child(UI.section_header(Loc.t("diagnostics.catalog"), Loc.t("diagnostics.catalog_hint")))
 	_summary.add_child(UI.kv_row(Loc.t("diagnostics.games"), str(Catalog.count())))
 	var engines := 0

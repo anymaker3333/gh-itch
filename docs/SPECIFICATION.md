@@ -17,9 +17,8 @@ engine, a real locale pack or a real preference — never from a placeholder.
 * Godot 4.7.2 (GDScript), single window, mouse + keyboard.
 * Target resolution 1280×720 and above; UI scale 75 %–175 %.
 * No backend server: online play is peer-to-peer, host-authoritative.
-* Steam is used for identity, friends, invites and lobby metadata; the Steam
-  transport is the online path for release builds. A local ENet transport exists
-  for tests and LAN play and is always labelled as *not Steam*.
+* Steam is not used in this build. Online play uses the local ENet test transport
+  (labelled *not Steam*) or is disabled for web builds.
 
 ## 3. Games
 
@@ -98,10 +97,10 @@ Details: `docs/STAR_REALMS_EXPANSIONS.md`.
 
 ## 8. Online requirements
 
-* Steam App ID **480** (Spacewar) is used for development only; release builds
-  take their own App ID. `steam_appid.txt` is never committed.
-* Lobby metadata is verifiable: `gamehub_id`, `protocol_version`,
-  `game_version`, `game_id`, `game_mode`, `status`, `expansions`.
+* Steam is not used in this build; there is no `steam_appid.txt` and no Steamworks
+  dependency.
+* Online play (where available) uses the local ENet test transport, labelled *not
+  Steam* in the UI; the Steam transport is not shipped.
 * Host-authoritative state; clients never apply unvalidated actions.
 * The wire protocol is versioned and rejects mismatches with a typed reason.
 * The local test transport must be usable without Steam and must say so in the
